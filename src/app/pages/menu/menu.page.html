@@ -1,0 +1,27 @@
+<ion-app>
+  <ion-menu content-id="content" type="overlay">
+    <ion-header >
+      <ion-toolbar color="secondary">
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <ion-title>Profile</ion-title>
+      </ion-toolbar>
+    </ion-header>
+   <ion-content>
+    <br>
+
+     <ion-list>
+       <ion-menu-toggle auto-hide="false" *ngFor="let p of pages">
+         <ion-item [routerLink]="p.url" routerDirection="root" [class.active-item]="selectedPath == p.url">
+           {{p.title}}
+         </ion-item>
+       </ion-menu-toggle>
+     </ion-list>
+   </ion-content> 
+  </ion-menu>
+  
+  <ion-router-outlet id="content" main></ion-router-outlet>
+</ion-app>

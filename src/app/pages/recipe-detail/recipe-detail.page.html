@@ -1,0 +1,51 @@
+<ion-content *ngIf="food">
+
+<ion-toolbar>
+  <ion-buttons slot="start">
+    <ion-back-button defaultHref="menu/home"></ion-back-button>
+  </ion-buttons>
+</ion-toolbar>
+<h2 class="ion-padding"><b>{{food?.foodName}}</b></h2>
+<ion-img [src]="food.imageUrl" style="height: 40%;width: 95%;"></ion-img>
+
+<br>
+
+<h2 class="text-center"><b>Ingredients</b></h2>
+<ion-item lines="full">
+  <ion-icon name="time-outline"></ion-icon>{{" Cook: "+food.cookTime}}
+</ion-item>
+<br>
+<ion-list lines="none"  *ngFor="let ingredient of food.ingredients">
+  <ion-item >
+    <ion-thumbnail slot="start">
+      <img
+        [src]="ingredient.imageUrl" />
+    </ion-thumbnail>
+      <h4>{{ingredient.name}}</h4>
+  </ion-item>
+</ion-list>
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+</ion-content>

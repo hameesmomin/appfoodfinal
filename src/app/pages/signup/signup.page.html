@@ -1,0 +1,79 @@
+<ion-content>
+  <ion-toolbar>
+  <ion-buttons slot="start">
+    <ion-back-button defaultHref="menu/home"></ion-back-button>
+  </ion-buttons>
+</ion-toolbar>  
+  <br>
+  <br>
+  
+  <ion-grid >
+    <ion-row class="ion-text-center">
+      <ion-col >
+        <div>
+         <h1>Crummbz</h1>
+         <br>
+         </div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="ion-justify-content-center">
+      <ion-col size="9">
+        <div>
+          <ion-item>
+            <ion-icon name="person" size="20%" style="margin-right: 2% ;"></ion-icon>
+            <ion-input type="email" placeholder="Enter Email"></ion-input>
+          </ion-item>
+          <br/>
+        </div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="ion-justify-content-center">
+      <ion-col size="9">
+        <div>
+          <ion-item>
+            <ion-icon name="lock-closed" size="20%" style="margin-right: 2% ;"></ion-icon>
+            <ion-input type="password" placeholder="Enter Password"></ion-input>
+          </ion-item>
+          <br>
+        </div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="ion-justify-content-center">
+      <ion-col size="9">
+        <div>
+          <ion-item>
+            <ion-icon name="lock-closed" size="20%" style="margin-right: 2% ;"></ion-icon>
+            <ion-input type="password" placeholder="Confirm Password"></ion-input>
+          </ion-item>
+          <br>
+        </div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="ion-text-center">
+      <ion-col>
+        <div>
+          <ion-button shape="round" size="100px">SIGN UP</ion-button>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="ion-text-center">
+      <ion-col  >
+        <div [routerLink]="['/login']">
+          Already have account?Log In
+        </div>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+
+</ion-content>

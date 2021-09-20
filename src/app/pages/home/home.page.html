@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title class="ion-text-center">Crummbz</ion-title>
+    <ion-buttons slot="end" style="position: relative;" [routerLink]="['/cart']"  >
+      <ion-icon  name="cart" size="large"  slot="icon-only" ></ion-icon>
+      <ion-badge color="danger" *ngIf="carts">{{carts}}</ion-badge>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  
+  <br>
+
+  <div class="ion-text-center">
+    <ion-button color="secondary" [routerLink]="['/recipe']"><ion-icon name="search-outline"></ion-icon> Recipe</ion-button>
+    <ion-button color="secondary" [routerLink]="['/ingredient']"><ion-icon name="search-outline"></ion-icon> Ingredient</ion-button>
+  </div> 
+</ion-content>

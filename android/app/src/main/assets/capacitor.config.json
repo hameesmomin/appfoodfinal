@@ -1,0 +1,6 @@
+{
+	"appId": "foodie.app.starter",
+	"appName": "foodieapp",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

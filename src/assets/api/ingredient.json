@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "name":"Salt",
+    "imageUrl":"assets/images/ingredients/salt.png",
+    "weight":"10g"
+   }, 
+   {
+     "id": 2,
+     "name":"Meat",
+     "imageUrl":"assets/images/ingredients/meat.png",
+     "weight":"10g"
+   },
+   {
+     "id": 3,
+     "name":"Potato",
+     "imageUrl":"assets/images/ingredients/potato.png",
+     "weight":"10g"
+   },
+   {
+     "id": 4,
+     "name":"Pepper",
+     "imageUrl":"assets/images/ingredients/pepper.png",
+     "weight":"10g"
+   },
+   { 
+      "id": 5,
+      "name":"Bread",
+      "imageUrl":"assets/images/ingredients/bread.png",
+      "weight":"10g"
+   }
+   
+  ]

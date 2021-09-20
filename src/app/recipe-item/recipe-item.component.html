@@ -1,0 +1,16 @@
+  <ion-item [routerLink]="['/recipe-detail',food.foodId]">
+    
+    <ion-thumbnail slot="end">
+      <img
+        [src]="food.imageUrl" />
+    </ion-thumbnail>
+    <ion-label>
+      <ion-text color="primary">
+      <h1 >{{food.foodName}}</h1>
+    </ion-text>
+      <h6>
+        <b>Ingredients:</b><span *ngFor="let ingredient of food.ingredients">{{ingredient.name+","}}</span> <br />
+      </h6>
+    </ion-label>
+
+  </ion-item>
