@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "crumbz-final": {
+      "hosting": {
+        "app": [
+          "crumbz-final"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "crumbz-final"
+  }
+}

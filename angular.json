@@ -31,8 +31,11 @@
                 "output": "./svg"
               }
             ],
-            "styles": [ "src/global.scss","./node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "./node_modules/font-awesome/css/font-awesome.min.css"],
+            "styles": [
+              "src/global.scss",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/font-awesome/css/font-awesome.min.css"
+            ],
             "scripts": [],
             "aot": false,
             "vendorChunk": true,
@@ -167,6 +170,10 @@
               "devServerTarget": "app:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
     }
