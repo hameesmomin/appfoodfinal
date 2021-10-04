@@ -4,7 +4,7 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path:'menu',
-    loadChildren:() => import('./pages/menu/menu.module').then( m => m.MenuPageModule) 
+    loadChildren:() => import('./pages/menu/menu.module').then( m => m.MenuPageModule)
   },
   {
     path: '',
@@ -40,7 +40,18 @@ const routes: Routes = [
   {
     path: 'recipe-find',
     loadChildren: () => import('./pages/recipe-find/recipe-find.module').then( m => m.RecipeFindPageModule)
+  },
+
+  {
+    path: 'cuisine',
+    loadChildren: () => import('./pages/cuisine/cuisine.module').then( m => m.CuisinePageModule)
+  },
+  {
+    path: 'favorites',
+    loadChildren: () => import('./pages/favorites/favorites.module').then( m => m.FavoritesPageModule)
   }
+
+
 
 
 ];

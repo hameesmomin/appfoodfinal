@@ -1,17 +1,16 @@
-ion-content{
+ion-content {
     --padding-start: 2rem;
     --padding-end: 2rem;
+    .food-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+    }
+}
 
-.food-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1rem;
-  }
-
-}  
 ion-badge {
-  position: absolute;
-  top: 0px;
-  right: 0px;   
-  border-radius: 100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-radius: 100%;
 }

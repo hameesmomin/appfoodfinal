@@ -12,7 +12,7 @@ import { ToastController } from '@ionic/angular';
   styleUrls: ['./ingredient.page.scss'],
 })
 export class IngredientPage implements OnInit,DoCheck {
-  
+
   carts:number;
   check:boolean;
   counter:number;
@@ -33,7 +33,7 @@ export class IngredientPage implements OnInit,DoCheck {
 
   performFilter(filterBy: string):Ingredient[]{
     filterBy = filterBy.toLocaleLowerCase();
-    
+
     return this.ingredients.filter((food: Ingredient) =>
        food.name.toLocaleLowerCase().indexOf(filterBy) !== -1
        );
@@ -41,7 +41,7 @@ export class IngredientPage implements OnInit,DoCheck {
     // for food ingredients return function
     //  return this.foods.filter(a=>a.ingredients.some
     //   (t=>t.name.toLocaleLowerCase().indexOf(filterBy)!==-1));
-    
+
   }
 
   constructor(
@@ -54,13 +54,13 @@ export class IngredientPage implements OnInit,DoCheck {
     this.sub = this.ingredientService.getIngredients().subscribe({
       next: ingredients => {
         this.ingredients = ingredients;
-        this.filteredIngredients = ingredients;  
+        this.filteredIngredients = ingredients;
       },
       error: err => this.errorMessage = err
     });
   }
   addToCart(ingredient:Ingredient):void{
-   
+
     this.check =this.cartService.checkIngredient(ingredient.name);
 
     if(!this.check){
@@ -70,7 +70,7 @@ export class IngredientPage implements OnInit,DoCheck {
         weight: ingredient.weight,
         image: ingredient.imageUrl ,
         quantity: 1,
-      }; 
+      };
     this.cartService.addToCart(cartitem);
     }
     this.presentToast();

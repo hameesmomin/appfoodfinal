@@ -1,11 +1,20 @@
-searchbar{
-    --ion-background-color:linear-gradient(#EFF2F0,#EFF2F0);
+searchbar {
+    --ion-background-color: linear-gradient(#EFF2F0, #EFF2F0);
 }
- 
- ion-badge {
+
+ion-content {
+    --ion-background-image:
+}
+
+ion-badge {
     position: absolute;
     top: 0px;
-    right: 0px;   
+    right: 0px;
     border-radius: 100%;
- }
- 
+}
+
+ion-button {
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 13vh;
+}

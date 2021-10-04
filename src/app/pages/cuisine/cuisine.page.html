@@ -1,7 +1,7 @@
 <ion-header>
     <ion-toolbar color="secondary">
         <ion-buttons slot="start">
-            <ion-menu-button></ion-menu-button>
+            <ion-back-button defaultHref="menu/home"></ion-back-button>
         </ion-buttons>
         <ion-title class="ion-text-center">Crummbz</ion-title>
         <ion-buttons slot="end" style="position: relative;" [routerLink]="['/cart']">
@@ -20,13 +20,7 @@
 
     <div class="ion-text-center">
         <ion-button color="secondary" expand="block" [routerLink]="['/recipe']">
-            <ion-icon name="search-outline"></ion-icon> Recipe</ion-button><br>
-        <ion-button color="secondary" expand="block" [routerLink]="['/ingredient']">
-            <ion-icon name="search-outline"></ion-icon> Ingredient</ion-button><br>
-        <ion-button color="secondary" expand="block" [routerLink]="['/cuisine']">
-            <ion-icon name="search-outline"></ion-icon> Cusine</ion-button><br>
-        <ion-button color="secondary" expand="block" [routerLink]="['/favorites']">
-            <ion-icon name="search-outline"></ion-icon> Favorites</ion-button><br>
+            <ion-icon name="search-outline"></ion-icon> American</ion-button><br>
 
     </div>
 </ion-content>
