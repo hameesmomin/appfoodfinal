@@ -1,23 +1,18 @@
 <ion-content>
-  <ion-toolbar>
-  <ion-buttons slot="start">
-    <ion-back-button defaultHref="menu/home"></ion-back-button>
+  <ion-toolbar style="--background:#f5ddae">
+  <ion-buttons slot="start" >
+    <ion-back-button defaultHref="menu/home" style="color:#C28B4E;"></ion-back-button>
   </ion-buttons>
 </ion-toolbar>  
-  <br>
-  <br>
   
   <ion-grid >
     <ion-row class="ion-text-center">
       <ion-col >
-        <div>
-         <h1>Crummbz</h1>
-         <br>
-         </div>
+        <ion-img src="assets/images/CrummbzLogo.png"></ion-img>
       </ion-col>
     </ion-row>
 
-    <ion-row class="ion-justify-content-center" style="margin-left: 7%;">
+    <ion-row class="ion-justify-content-center">
       <ion-col size="9">
         <div>
           <ion-item>
@@ -29,7 +24,7 @@
       </ion-col>
     </ion-row>
 
-    <ion-row class="ion-justify-content-center" style="margin-left: 7%;">
+    <ion-row class="ion-justify-content-center">
       <ion-col size="9">
         <div>
           <ion-item>
@@ -41,7 +36,7 @@
       </ion-col>
     </ion-row>
 
-    <ion-row class="ion-justify-content-center" style="margin-left: 7%;">
+    <ion-row class="ion-justify-content-center">
       <ion-col size="9">
         <div>
           <ion-item>
@@ -56,19 +51,15 @@
     <ion-row class="ion-text-center">
       <ion-col>
         <div>
-          <ion-button shape="round" size="100px" (click)="signUp()">SIGN UP</ion-button>
+          <ion-button shape="round" size="100px" style="--background:#C28B4E;color:black" (click)="signUp()">SIGN UP</ion-button>
         </div>
         <br>
-        <br>
-        <br>
-        <br>
-
       </ion-col>
     </ion-row>
 
     <ion-row class="ion-text-center">
-      <ion-col [routerLink]="['/login']" style="color:blue">
-          <u>Already have account ? Log In</u>
+      <ion-col [routerLink]="['/login']" style="color:black">
+          Already have account ? <u>Log In</u>
       </ion-col>
     </ion-row>
 

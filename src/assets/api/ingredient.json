@@ -1,326 +1,267 @@
 [{
         "id": 1,
         "name": "Tomato",
-        "imageUrl": "assets/images/ingredients/salt.png",
-        "weight": "10g"
+        "imageUrl": "assets/images/ingredients/Tomato.png"
     },
     {
         "id": 2,
         "name": "Potato",
-        "imageUrl": "assets/images/ingredients/meat.png",
-        "weight": "10g"
+        "imageUrl": "assets/images/ingredients/potato.png"
     },
     {
         "id": 3,
         "name": "Garlic",
-        "imageUrl": "assets/images/ingredients/potato.png",
-        "weight": "10g"
+        "imageUrl": "assets/images/ingredients/Garlic.png"
     },
     {
         "id": 4,
         "name": "Ground Cumin",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "imageUrl": "assets/images/ingredients/Ground Cumin.png"
     },
     {
         "id": 5,
         "name": "Onion",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "imageUrl": "assets/images/ingredients/Onion.png"
     },
     {
         "id": 6,
         "name": "White Sugar",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "imageUrl": "assets/images/ingredients/White Sugar.png"
     },
     {
         "id": 7,
         "name": "Rose Water",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "imageUrl": "assets/images/ingredients/Rose Water.png"
     },
     {
         "id": 8,
         "name": "Oil",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "imageUrl": "assets/images/ingredients/Oil.png"
     },
     {
         "id": 9,
         "name": "Lemon Juice",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "imageUrl": "assets/images/ingredients/Lemon Juice.png"
     },
     {
         "id": 10,
         "name": "Butter",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "imageUrl": "assets/images/ingredients/Butter.png"
     },
     {
         "id": 11,
         "name": "Vegetable Oil",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "imageUrl": "assets/images/ingredients/Vegetable Oil.png"
     },
     {
         "id": 12,
         "name": "Olive Oil",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "imageUrl": "assets/images/ingredients/Olive Oil.png"
     },
     {
         "id": 13,
         "name": "Ground Cinnamon",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "imageUrl": "assets/images/ingredients/Ground Cinnamon.png"
     },
     {
         "id": 14,
         "name": "Garam Masala",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "imageUrl": "assets/images/ingredients/Garam Masala.png"
     },
     {
         "id": 15,
         "name": "Green Peas",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "imageUrl": "assets/images/ingredients/Green Peas.png"
     },
     {
         "id": 16,
         "name": "Ground Turmeric",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "imageUrl": "assets/images/ingredients/Ground Turmeric.png"
     },
     {
         "id": 17,
         "name": "Chili Powder",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "imageUrl": "assets/images/ingredients/Chili Powder.png"
     },
     {
         "id": 18,
         "name": "Ground Coriander",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "imageUrl": "assets/images/ingredients/Ground Coriander.png"
     },
     {
         "id": 19,
         "name": "Cardamom",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "imageUrl": "assets/images/ingredients/Cardamom.png"
     },
     {
         "id": 20,
         "name": "Egg",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "imageUrl": "assets/images/ingredients/Egg.png"
     },
     {
         "id": 21,
         "name": "Cilantro Leaves",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "imageUrl": "assets/images/ingredients/Cilantro Leaves.png"
     },
     {
         "id": 22,
         "name": "All-Purpose Flour",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "imageUrl": "assets/images/ingredients/All-Purpose Flour.png"
     },
     {
         "id": 23,
         "name": "Paprika",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "imageUrl": "assets/images/ingredients/Paprika.png"
     },
     {
         "id": 24,
         "name": "Bell Pepper",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "imageUrl": "assets/images/ingredients/Bell Pepper.png"
     },
     {
         "id": 25,
         "name": "Vanilla Extract",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "imageUrl": "assets/images/ingredients/Vanilla Extract.png"
     },
     {
         "id": 26,
         "name": "Evaporated Milk",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "imageUrl": "assets/images/ingredients/Evaporated Milk.png"
     },
     {
         "id": 27,
         "name": "Sweetened Condensed Milk",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "imageUrl": "assets/images/ingredients/Sweetened Condensed Milk.png"
     },
     {
         "id": 28,
         "name": "Baking Powder",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "imageUrl": "assets/images/ingredients/Baking Powder.png"
     },
     {
         "id": 29,
         "name": "Almonds",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "imageUrl": "assets/images/ingredients/Almonds.png"
     },
     {
         "id": 30,
         "name": "Parsley",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "imageUrl": "assets/images/ingredients/Parsley.png"
     },
     {
         "id": 31,
         "name": "Ground Black Pepper",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "imageUrl": "assets/images/ingredients/pepper.png"
     },
     {
         "id": 32,
         "name": "White Rice",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "imageUrl": "assets/images/ingredients/White Rice.png"
     },
     {
         "id": 33,
         "name": "Milk",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "imageUrl": "assets/images/ingredients/Milk.png"
     },
     {
         "id": 34,
         "name": "Phyllo Dough",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "imageUrl": "assets/images/ingredients/Phyllo Dough.png"
     },
     {
         "id": 35,
         "name": "Ground Beef",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "imageUrl": "assets/images/ingredients/Ground Beef.png"
     },
     {
         "id": 36,
         "name": "Ground Cardamom",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "imageUrl": "assets/images/ingredients/Ground Cardamom.png"
     },
     {
         "id": 37,
         "name": "Chicken Pieces",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "imageUrl": "assets/images/ingredients/Chicken Pieces.png"
     },
     {
         "id": 38,
         "name": "Mint",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "imageUrl": "assets/images/ingredients/Mint.png"
     },
     {
         "id": 39,
-        "name": "Ground Beef",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "name": "Honey",
+        "imageUrl": "assets/images/ingredients/Honey.png"
     },
     {
         "id": 40,
-        "name": "Honey",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "name": "Eggplant",
+        "imageUrl": "assets/images/ingredients/Eggplant.png"
     },
     {
         "id": 41,
-        "name": "Eggplant",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "name": "Basmati Rice",
+        "imageUrl": "assets/images/ingredients/Basmati Rice.png"
     },
     {
         "id": 42,
-        "name": "Basmati Rice",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "name": "Ghee",
+        "imageUrl": "assets/images/ingredients/Ghee.png"
     },
     {
         "id": 43,
-        "name": "Ghee",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "name": "Cayenne Pepper",
+        "imageUrl": "assets/images/ingredients/Cayenne Pepper.png"
     },
     {
         "id": 44,
-        "name": "Cayenne Pepper",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "name": "Garbanzo Beans",
+        "imageUrl": "assets/images/ingredients/Garbanzo Beans.png"
     },
     {
         "id": 45,
-        "name": "Garbanzo Beans",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "name": "Serrano Peppers",
+        "imageUrl": "assets/images/ingredients/Serrano Peppers.png"
     },
     {
         "id": 46,
-        "name": "Serrano Peppers",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "name": "Kale",
+        "imageUrl": "assets/images/ingredients/Kale.png"
     },
     {
         "id": 47,
-        "name": "Kale",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "name": "Carrot",
+        "imageUrl": "assets/images/ingredients/Carrot.png"
     },
     {
         "id": 48,
-        "name": "Carrot",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "name": "Caraway Seeds",
+        "imageUrl": "assets/images/ingredients/Caraway Seeds.png"
     },
     {
         "id": 49,
-        "name": "Caraway Seeds",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "name": "Tortillas",
+        "imageUrl": "assets/images/ingredients/Tortillas.png"
     },
     {
         "id": 50,
-        "name": "Tortillas",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "name": "Deli Roast Beef",
+        "imageUrl": "assets/images/ingredients/Deli Roast Beef.png"
     },
     {
         "id": 51,
-        "name": "Deli Roast Beef",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "name": "Garlic Powder",
+        "imageUrl": "assets/images/ingredients/Garlic Powder.png"
     },
     {
         "id": 52,
-        "name": "Garlic Powder",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
+        "name": "Whipping Cream",
+        "imageUrl": "assets/images/ingredients/Whipping Cream.png"
     },
     {
         "id": 53,
-        "name": "Whipping Cream",
-        "imageUrl": "assets/images/ingredients/pepper.png",
-        "weight": "10g"
-    },
-    {
-        "id": 54,
         "name": "Duck Fat",
-        "imageUrl": "assets/images/ingredients/bread.png",
-        "weight": "10g"
+        "imageUrl": "assets/images/ingredients/duck.PNG"
     }
 
 ]

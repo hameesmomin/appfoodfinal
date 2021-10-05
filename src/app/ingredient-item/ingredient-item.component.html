@@ -1,11 +1,11 @@
 <div class="card">
-    <ion-img [src]="item.imageUrl" style="height:110px;width:110px;"></ion-img>
+    <ion-img [src]="item.imageUrl" style="height:70px;width:70px;"></ion-img>
     <div class="card-content">
         <h3 class="title">{{item.name}}</h3>
         <h2 class="subtitle">{{item.weight}}</h2>
 
         <ion-buttons slot="start">
-            <ion-button (click)="clicked.emit()">
+            <ion-button (click)="clicked.emit()" style="--background:#C28B4E;">
                 <ion-icon slot="icon-only" name="add"></ion-icon>
             </ion-button>
         </ion-buttons>

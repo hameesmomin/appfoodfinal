@@ -5,6 +5,7 @@ import { Ingredient } from 'src/app/interface/ingredient';
 import { CartService } from 'src/app/services/cart.service';
 import { IngredientService } from 'src/app/services/ingredient.service';
 import { ToastController } from '@ionic/angular';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-ingredient',
@@ -12,7 +13,7 @@ import { ToastController } from '@ionic/angular';
   styleUrls: ['./ingredient.page.scss'],
 })
 export class IngredientPage implements OnInit,DoCheck {
-
+  receiver:any[];
   carts:number;
   check:boolean;
   counter:number;
@@ -37,20 +38,20 @@ export class IngredientPage implements OnInit,DoCheck {
     return this.ingredients.filter((food: Ingredient) =>
        food.name.toLocaleLowerCase().indexOf(filterBy) !== -1
        );
-
-    // for food ingredients return function
-    //  return this.foods.filter(a=>a.ingredients.some
-    //   (t=>t.name.toLocaleLowerCase().indexOf(filterBy)!==-1));
-
   }
 
   constructor(
     private ingredientService:IngredientService,
     private cartService:CartService,
-    private toastCtrl:ToastController
+    private toastCtrl:ToastController,
+    private router:Router
   ) { }
 
   ngOnInit() {
+    this.receiver = JSON.parse(localStorage.getItem("login"));
+    if(!this.receiver){
+      this.router.navigate(['/login']);
+    }
     this.sub = this.ingredientService.getIngredients().subscribe({
       next: ingredients => {
         this.ingredients = ingredients;
@@ -67,14 +68,12 @@ export class IngredientPage implements OnInit,DoCheck {
       const cartitem: ICart = {
         id: this.cartService.newId,
         name: ingredient.name,
-        weight: ingredient.weight,
         image: ingredient.imageUrl ,
         quantity: 1,
       };
     this.cartService.addToCart(cartitem);
     }
     this.presentToast();
-
   }
 
   async presentToast() {

@@ -29,7 +29,7 @@ export class HomePage implements OnInit,DoCheck {
       url:"/cuisine"
     },
     {
-      name:"view",
+      name:"Most Viewed",
       url:"/view"
     }
 ]

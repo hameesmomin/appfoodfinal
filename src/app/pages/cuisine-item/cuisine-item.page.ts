@@ -1,5 +1,5 @@
 import { Component, DoCheck, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { IFood } from 'src/app/interface/food';
 import { CartService } from 'src/app/services/cart.service';
 import { FoodsService } from 'src/app/services/foods.service';
@@ -16,11 +16,13 @@ export class CuisineItemPage implements OnInit,DoCheck {
   _listFilter: string;
   foods:IFood[];
   ingredients:any[];
-  
+  receiver:any[];
+
     constructor(
       private route:ActivatedRoute,
       private foodService:FoodsService,
-      private cartService:CartService
+      private cartService:CartService,
+      private router:Router
       ) {
   
      }
@@ -43,6 +45,10 @@ export class CuisineItemPage implements OnInit,DoCheck {
     }
   
     ngOnInit() {
+      this.receiver = JSON.parse(localStorage.getItem("login"));
+      if(!this.receiver){
+        this.router.navigate(['/login']);
+      }
     //  for get url name
       const id = this.route.snapshot.paramMap.get('id');
        if(id){

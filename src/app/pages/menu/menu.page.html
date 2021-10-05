@@ -1,12 +1,14 @@
 <ion-app>
   <ion-menu content-id="content" type="overlay">
     <ion-header >
-      <ion-toolbar color="secondary">
+      <ion-toolbar style="--background:#C28B4E">
         <br>
         <br>
         <br>
+        <ion-title class="ion-text-center" color="black">{{profile}}</ion-title>
         <br>
-        <ion-title>Profile</ion-title>
+        <br>
+        <br>
       </ion-toolbar>
     </ion-header>
    <ion-content>
@@ -15,7 +17,12 @@
      <ion-list>
        <ion-menu-toggle auto-hide="false" *ngFor="let p of pages">
          <ion-item [routerLink]="p.url" routerDirection="root" [class.active-item]="selectedPath == p.url">
-           {{p.title}}
+          <ion-icon name="home"></ion-icon> 
+          <ion-label style="margin-left: 2%;">{{p.title}}</ion-label>
+         </ion-item>
+         <ion-item (click)="signOut()">
+          <ion-icon name="log-out"></ion-icon>
+          <ion-label style="margin-left: 2%;">Log Out</ion-label>
          </ion-item>
        </ion-menu-toggle>
      </ion-list>

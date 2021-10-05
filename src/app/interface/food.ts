@@ -7,4 +7,5 @@ export interface IFood {
     starRating: number;
     imageUrl: string;
     cookTime:string;
+    directions:any[];
 }

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { IFood } from 'src/app/interface/food';
 import { CartService } from 'src/app/services/cart.service';
 import { FoodsService } from 'src/app/services/foods.service';
@@ -9,9 +10,10 @@ import { FoodsService } from 'src/app/services/foods.service';
   styleUrls: ['./recipe-find.page.scss'],
 })
 export class RecipeFindPage implements OnInit {
-
+  receiver:any[];
   constructor(private cartService:CartService,
-    private foodService:FoodsService
+    private foodService:FoodsService,
+    private router:Router
      ) { }
    
    recipes:IFood[];  
@@ -19,6 +21,10 @@ export class RecipeFindPage implements OnInit {
    foods:IFood[];
    errorMessage='';
   ngOnInit() {
+    this.receiver = JSON.parse(localStorage.getItem("login"));
+    if(!this.receiver){
+      this.router.navigate(['/login']);
+    }
     this.foodService.getFoods().subscribe({
       next: foods => {
         this.foods = foods;  

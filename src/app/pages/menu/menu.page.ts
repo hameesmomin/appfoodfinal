@@ -10,39 +10,51 @@ import { getAuth, onAuthStateChanged } from "firebase/auth";
 export class MenuPage implements OnInit {
   pages = [
     {
-      title: 'Login / Sign up',
-      url:'/login'
-    },
-    {
       title: 'Home',
       url: '/menu/home'
     }
   ];
 
   selectedPath = '';
+  profile:string;
+  receiver:any[];
 
   constructor(private router: Router) {
     this.router.events.subscribe((event: RouterEvent) => {
       this.selectedPath =event.url;
     });
-   }
 
+  }
 
+  
   ngOnInit() {
+    this.receiver = JSON.parse(localStorage.getItem("login"));
+    if(!this.receiver){
+      this.router.navigate(['/login']);
+    }
+    this.profile = this.receiver[0].email;
     const auth = getAuth();
     onAuthStateChanged(auth, (user) => {
     if (user) {
       // User is signed in, see docs for a list of available properties
       // https://firebase.google.com/docs/reference/js/firebase.User
       const uid = user.uid;
+        
       // ...
     } else {
       // User is signed out
       // ...
 
+
     }
   });
-  }
  
+  }
+
+  signOut(){
+    localStorage.removeItem("carts");
+    localStorage.removeItem("login");
+    this.router.navigate(['/login']);
+  }
 
 }

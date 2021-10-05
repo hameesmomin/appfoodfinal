@@ -11,6 +11,7 @@ export class LoginPage implements OnInit {
 
   email:string;
   password:string;
+  setItems:any[];
 
   constructor(
     private alertCtrl: AlertController,
@@ -32,7 +33,12 @@ export class LoginPage implements OnInit {
     .then((userCredential) => {
      // Signed in 
      const user = userCredential.user;
+    // for local storage 
+     let rrr= [{"id":user.uid,"email":this.email}];
+     localStorage.setItem("login",JSON.stringify(rrr));   
+    
      this.navCtrl.navigateRoot("/menu/home");
+     
      // ...
     })
     .catch((error) => {

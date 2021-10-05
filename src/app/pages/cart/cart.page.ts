@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { AlertController } from '@ionic/angular';
 import { ICart } from 'src/app/interface/cart';
 import { CartService } from 'src/app/services/cart.service';
@@ -9,16 +10,21 @@ import { CartService } from 'src/app/services/cart.service';
   styleUrls: ['./cart.page.scss'],
 })
 export class CartPage implements OnInit {
-
+  receiver:any[];
   cartItems:any[];
   constructor(
     private cartService:CartService,
-    private alertCtrl: AlertController
+    private alertCtrl: AlertController,
+    private router:Router
   ) {
 
   }
 
   ngOnInit() {
+    this.receiver = JSON.parse(localStorage.getItem("login"));
+    if(!this.receiver){
+      this.router.navigate(['/login']);
+    }
   this.cartItems = this.cartService.receiver;
 }
 

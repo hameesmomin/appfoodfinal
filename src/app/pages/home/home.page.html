@@ -1,7 +1,7 @@
 <ion-header>
-    <ion-toolbar color="secondary">
+    <ion-toolbar style="--background:#C28B4E">
         <ion-buttons slot="start">
-            <ion-menu-button></ion-menu-button>
+            <ion-menu-button style="color:#f5ddae"></ion-menu-button>
         </ion-buttons>
         <ion-title class="ion-text-center">Crummbz</ion-title>
         <ion-buttons slot="end" style="position: relative;" [routerLink]="['/cart']">
@@ -18,8 +18,8 @@
 
 
     <div class="ion-text-center" *ngFor="let page of pages">
-        <ion-button color="secondary" expand="block" [routerLink]="page.url">
-            <ion-icon name="search-outline"></ion-icon>{{page.name}}</ion-button><br>
+        <ion-button expand="block" [routerLink]="page.url" style="--background:#C28B4E;color:black">
+            {{page.name}}</ion-button><br>
 
     </div>
 </ion-content>

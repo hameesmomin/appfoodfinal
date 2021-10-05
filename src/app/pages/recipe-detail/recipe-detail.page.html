@@ -1,8 +1,8 @@
 <ion-content *ngIf="food">
 
-<ion-toolbar>
+<ion-toolbar style="--background:#f5ddae">
   <ion-buttons slot="start">
-    <ion-back-button defaultHref="menu/home"></ion-back-button>
+    <ion-back-button defaultHref="menu/home" style="color:#C28B4E;"></ion-back-button>
   </ion-buttons>
 </ion-toolbar>
 <h2 class="ion-padding"><b>{{food?.foodName}}</b></h2>
@@ -10,7 +10,7 @@
 
 <br>
 
-<h2 class="text-center"><b>Ingredients</b></h2>
+<h2 class="ion-padding"><b>Ingredients</b></h2>
 <ion-item lines="full">
   <ion-icon name="time-outline"></ion-icon>{{" Cook: "+food.cookTime}}
 </ion-item>
@@ -21,13 +21,20 @@
       <img
         [src]="ingredient.imageUrl" />
     </ion-thumbnail>
-      <h4>{{ingredient.name}}</h4>
+      <h6>{{ingredient.quantity+" "+ingredient.name}}</h6>
+  </ion-item>
+</ion-list>
+<hr>
+<h2 class="ion-padding"><b>Directions</b></h2>
+
+<ion-list lines="none"  *ngFor="let loop  of food.directions;">
+  <ion-item lines="none" ><ion-icon name="checkmark-circle"></ion-icon>{{" Step "+loop.id}}</ion-item>
+  <ion-item>
+      <br>
+      <p>{{loop.step}}</p>
   </ion-item>
 </ion-list>
 
-
-
-
 <br>
 <br>
 <br>
@@ -39,13 +46,4 @@
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-
 </ion-content>

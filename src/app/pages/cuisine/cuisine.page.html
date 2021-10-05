@@ -1,7 +1,7 @@
 <ion-header>
-    <ion-toolbar color="secondary">
+    <ion-toolbar style="--background:#C28B4E">
       <ion-buttons slot="start">
-        <ion-back-button defaultHref="menu/home"></ion-back-button>
+        <ion-back-button defaultHref="menu/home" style="color:#f5ddae;"></ion-back-button>
       </ion-buttons>
       <ion-title class="ion-text-center">Crummbz</ion-title>
       <ion-buttons slot="end" style="position: relative;" [routerLink]="['/cart']"  >
@@ -20,7 +20,7 @@
     <br>
     <ion-list *ngFor="let cuisine of cuisines">
       <ion-item class="ion-text-center" [routerLink]="['/cuisine-item',cuisine]">
-        <ion-label color="primary">
+        <ion-label>
           <b>{{cuisine}}</b>
         </ion-label>
       </ion-item>

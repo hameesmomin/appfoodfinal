@@ -1,12 +1,13 @@
 .card {
-    width: 100%;
+    width: 75%;
     padding: 1.6rem 2rem;
-    background: #f3f3f3;
+    background: #f5ddae;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
     border-radius: 2.5rem;
+    border: 2px solid black;
     margin-bottom: 1.5rem;
   
     .card-content {
@@ -18,14 +19,6 @@
         margin-bottom: 0.2rem;
         color: #1d1d1d;
       }
-  
-      .subtitle {
-        font-size: 1.3rem;
-        font-weight: 700;
-        color: #ffb800;
-        margin-top: 0;
-      }
-  
       ion-buttons {
         position: absolute;
         bottom: -1rem;
@@ -33,7 +26,6 @@
         transform: translateX(-50%);
   
         ion-button {
-          --background:cornflowerblue;
           font-weight: 700;
           color: #fff;
           width: 40px;

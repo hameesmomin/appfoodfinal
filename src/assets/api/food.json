@@ -1,224 +1,64 @@
 [{
-        "foodId": 1,
-        "foodName": "Fries",
-        "cuisine": "American",
-        "ingredients": [{
-                "name": "Salt",
-                "imageUrl": "assets/images/ingredients/salt.png"
-            },
-            {
-                "name": "Meat",
-                "imageUrl": "https://media.istockphoto.com/photos/fillet-steak-beef-meat-picture-id475336398?k=6&m=475336398&s=612x612&w=0&h=Ke2IPJGmQclTrO6nBw0QReZLwhQ7FdFJDkVaE0j2Siw="
-            },
-            {
-                "name": "Potato",
-                "imageUrl": "https://st2.depositphotos.com/3472015/5796/i/950/depositphotos_57968421-stock-photo-raw-chicken.jpg"
-            }
-        ],
-        "imageUrl": "assets/images/foods/seafood-dishes.png",
-        "cookTime": "15min"
-    },
-    {
-        "foodId": 2,
-        "foodName": "Burger ",
-        "cuisine": "American",
-        "ingredients": [{
-                "name": "Pepper",
-                "imageUrl": "data:image/jpeg;base64,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"
-            },
-            {
-                "name": "Bread",
-                "imageUrl": "https://media.istockphoto.com/photos/fillet-steak-beef-meat-picture-id475336398?k=6&m=475336398&s=612x612&w=0&h=Ke2IPJGmQclTrO6nBw0QReZLwhQ7FdFJDkVaE0j2Siw="
-            },
-            {
-                "name": "Corn Flower",
-                "imageUrl": "https://st2.depositphotos.com/3472015/5796/i/950/depositphotos_57968421-stock-photo-raw-chicken.jpg"
-            }
-        ],
-
-        "imageUrl": "assets/images/foods/mussel.png",
-        "cookTime": "10min"
-    },
-    {
-        "foodId": 3,
-        "foodName": "Boil Fries",
-        "cuisine": "American",
-        "ingredients": [{
-                "name": "Potato",
-                "imageUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUTExIVFRUXFRUVGBUXFRUVFRUVFRcWFxUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDw8NDysZFRktLSsrNys3LTctKys3Kys3NzcrLS03KysrKy03LSsrKysrKysrKy0rKysrKysrKysrK//AABEIAOEA4QMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAAAAQIDBAUH/8QALxAAAgICAQIEBQQDAQEBAAAAAAECEQMhMUFRBBJhcYGRobHwIjLB8RPR4UJSFP/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/APtQhiABRlZMpDiBQAAAACAYgE2AxkUNMBsQ0TGVgMQxAAmMQASnYNggGIYgAQxAAASwKEKhpgFgAAdBEpFSQoxAIxKAAAAAAEAAMlFCaATBIaQwEIqhMBCCcqpVz9BgIhsqSEl1AEgGACENiAQAACFBjE0A33EAAABYAdIAAAAAAAAAAACYABCcvQI31YFgiQTAmcpeb0r6lWZ8cvn8otAWxeZUZzXma3pGeOC2ru+QNIzfXX8lETx3XzLoBAA7VbAWuWZwyKXH57Dx5LXBVAJiGJgANCM8ik5J3oDQQAAgHQAdIAAAAAAN0rIx5VJWimCiAWJR69RKV8CyS490UUhPIKTMZSAeTLx7m9aOdR12fJSegBz3v4FRyUc0pMWWQGznz+e5OFpNvfv3MG2GWdIDtxy2PJPaOeDtIeN3K+f4A6PMroZk7XYVt1v+gNaEUkJtdyCRDsQCAB6qwEISkntDAKAVgB1ABDbv0AoCa9xpgNmc49mOUV5vWiqKIxQpIp18QciGvroBzRnBdTRg0vYgifqZxyWuC8zMoxConFSf89gnG9F+Xugm1V3WgMnOuHtOhyxvSasmG3fQuWRJgKMnxwaQ/SZKqsbl2A1bJ/yJaX9nNlm0+QjJuuy3ZUemtozx4K5bZXmffkmMklt8gLHFK0iiXiVoavqQMTgpKmMAISS4BOzKEKvd27/KNUAAAAdRKGDQA2JIdAA3KkRF9WaUYSVFDkXZEF3L6EA5Iyls0nGzOS6gKMe446HBk0gInLVETWqHkQo8hThJLp0MM2PSb/o6tIzmrVXwBzyfHr+cBOTjtE5Jcb3fwFkkqrqAR2nKXwV/VsTdVvkwl/8APK9PtRrPXCqgjreXiuw47rTbX3OTHLST5NvD5Xboo70iXNXVCwS53/wlNPdelgXkmlySnZOd2lST2VFdSBRkt+jGKGNLgpgIAADpABgIADzJAEpO6SJkEcqfqNyKFQ0SmTCbZBTkKurEuXZTAKM2ivPZNhUyiZJbs0kzGeQCsmUyjJ0/uRGWtgpuvT6gZ5FWn3TIm/M/Xt2J8Q0u9vqPA6t10/NgTg97ZeZr3fP/AAxlkq33MckwOmGRtJrg6fCySkzzocaddK/4deLVt/jKj0YRj0lVkTg1vlXrt7mPhYOTt6N/8lOltWBrFUNtLqIWSKaogoz8m7LABWA7ADpAAAAoQIClwZsrhfUy85QMEhLe+g5KyKSdivoZ5mZRydANnKmVHIY+a/b6kKXL7aA0cjjyzfTex5JXb+Rh5mlsDrywtVz3OfNm4rb/AII8T4ror9WYKNNfqS3z8AOjxS1fN82csc9dG19x5HK2v3L3M8uO79fl/wAYGmP9T49QnOLddt+5E5JJ3e2kt+xOeTSXDpUgLwtO7799m8clXXY5o80a+fdL6hHo+Fkmnb6HRDNHS7nFh30OzDiX7qplGjnuqKI8yvlu/kiiBiAEAWIn/wDRDuAHW279B2ITYDsSdp8ohyKjwwCL1RDumaRYPJtrhFHNF+o8kqs0UPQzmlv0ZBxNybt36djVt9V9SpTVLerMszb4/tBVR0rb+HJlk8R0XYqa8q3yYYoveufmA8efTjV+vQ55Sb/db6HU4pc8N7OXxekmne+PQC80vK1pNPb9Ec+VemtdSlmW210r8+ZxZfFRbqnvS0613RB3YqTaf6m1ev5POl4mrW9c1srGlBSknarW+K5Rz4uG31aS+wHTO5JK03yZwVbvjubSkotLq17rtr638DDI/wBXN+nJR14Xy29X/Bph/dfyIbUVS239zo8PFKn9yo7MMevu/Y3VqKdO3055f+jPBt+nL7HSsvmtLXr6gXGPoXrqYRXljVtt9UXkxeZV/bIEsttqtdyyFGh2A/KuwAAHQ2RKRTEl3AEhiAASoPJb6jQ6Aib7nPkdnVKuWjmyAczx9LNXBLr+di/8PX8Zc4oKxlBPcl7IiK36/ZDyS9TPLy/XntSAWWDd+hyeJ/8AN8djfNDS3+dzjWRS2re+f+ARmyJqtpPqjmyZ4X+lPzK3ft0OzLit6baWzz3jSfl27Tf4wMs7cpb735f5N3KHCXa10/sjDKPmaUNLW3w0GXG3JPo+v3dkC8RHzSrpHWuW9FeHT03pUCyx/bH93fVUOFLncr/PYo7P8e1b/ctelGuBOSt8X86J3SvtR1eEjKna0qpfnwKi56j+n7G3hsMk227s0qfp7dEagNGaknLV2uvQp5N0lrqx0QCS/wCAhKabaXQYAAWAG4CABgIAKRGRvzLtX+hyjap9RpAUKStBLiqsSnxpL0AwySfbf2MJ8Pk78rRy5X/RRxY47a2wzSr0Yk3dpv1Rj4uDk7vSsis/EZXajfojNNRr4p109TSKkmmmuPkh5Er9kBjlzK0l7XxZhmd61fRfdlOMr302uDmlbk2ogaTmkv0rm7vZcsqkv09Fvj46+ZHhVU0pJ1t060aTwxi21HV0viBjHL5v/J6Hg/D1cqva2+ehnipNNqvr7HfiTlKuEl8SouUHOqpfYqGHyyS23u+iRSi3pF4sFJW99fUDYJSS79PqFClFXZA7BCsSkAlkTbSKEwAYCADoAAABisAGFisLAdif1FYWBm7St7fV7+hnOX6bqjbIrVXRM4vnt0KOLFikum+n+2zLPjk3v6cHpYbq31DLDsvz1A8qUpapUvhv3Mf1env1rsehmW6Jjj1ddWvgIPOmuK62t9e5HNU6+r0dkMHml7a9EbR8LbWlS5fsIOGGFunJ0ub5Kjicpa2k9duDrxeETk3TpcdvU7Y40lVAcPh/DrzbV+vauD0I46t3yYYskrry0u7HlxycrvQGl1tP3/oqM0zJwimlva+RWOCSpEFqV9wYJmMvE/q8tdANAE5BYDBlJdzHJ4qPmUVtgaAR5gA6kMlCsCrCyWhWBVhYgABiACkVRFkeVJ2ANJu7etUVF2iY0un9kY8rbdqtgOWOVriur4stmfiMblSul19i4pcLpooybjjVVbf1shY27XCv5o6HEU8kYq2wJ/xxgr335+rKUtWTOEZUCRBaRf8AjIlUeXTOapStqXPoB0SruhHPgwKPLt/U2AYmDEAxMLJbAnJC3fVcdh+VcgADoQxAdQhWJsC77/IRKCwKAmwsCrCybFYF2R5gbEgLSBk+ZkY5Ot8gbIyxSjvy93vuOxIBzW7uimyGFgVYkxWJsCssYunLnhLoKNRX+jPJFNUxgLGk/wBW99yybFYFNisXmFYDbJTCQrAoGybFYFeYZFgB1AAAAgABgAAIQAACAAGxMAABgACkIAATEwAAEwABAwABCAAAQAAgQAAgAAP/2Q=="
-            },
-            {
-                "name": "Ketchup",
-                "imageUrl": "https://media.istockphoto.com/photos/fillet-steak-beef-meat-picture-id475336398?k=6&m=475336398&s=612x612&w=0&h=Ke2IPJGmQclTrO6nBw0QReZLwhQ7FdFJDkVaE0j2Siw="
-            },
-            {
-                "name": "Myunise",
-                "imageUrl": "https://st2.depositphotos.com/3472015/5796/i/950/depositphotos_57968421-stock-photo-raw-chicken.jpg"
-            }
-        ],
-        "imageUrl": "assets/images/foods/scott-ish-breakfast.png",
-        "cookTime": "20min"
-    },
-    {
-        "foodId": 4,
-        "foodName": "Chicken Burger",
-        "cuisine": "American",
-        "ingredients": [{
-                "name": "Bread",
-                "imageUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUTExIVFRUXFRUVGBUXFRUVFRUVFRcWFxUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDw8NDysZFRktLSsrNys3LTctKys3Kys3NzcrLS03KysrKy03LSsrKysrKysrKy0rKysrKysrKysrK//AABEIAOEA4QMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAAAAQIDBAUH/8QALxAAAgICAQIEBQQDAQEBAAAAAAECEQMhMUFRBBJhcYGRobHwIjLB8RPR4UJSFP/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/APtQhiABRlZMpDiBQAAAACAYgE2AxkUNMBsQ0TGVgMQxAAmMQASnYNggGIYgAQxAAASwKEKhpgFgAAdBEpFSQoxAIxKAAAAAAEAAMlFCaATBIaQwEIqhMBCCcqpVz9BgIhsqSEl1AEgGACENiAQAACFBjE0A33EAAABYAdIAAAAAAAAAAACYABCcvQI31YFgiQTAmcpeb0r6lWZ8cvn8otAWxeZUZzXma3pGeOC2ru+QNIzfXX8lETx3XzLoBAA7VbAWuWZwyKXH57Dx5LXBVAJiGJgANCM8ik5J3oDQQAAgHQAdIAAAAAAN0rIx5VJWimCiAWJR69RKV8CyS490UUhPIKTMZSAeTLx7m9aOdR12fJSegBz3v4FRyUc0pMWWQGznz+e5OFpNvfv3MG2GWdIDtxy2PJPaOeDtIeN3K+f4A6PMroZk7XYVt1v+gNaEUkJtdyCRDsQCAB6qwEISkntDAKAVgB1ABDbv0AoCa9xpgNmc49mOUV5vWiqKIxQpIp18QciGvroBzRnBdTRg0vYgifqZxyWuC8zMoxConFSf89gnG9F+Xugm1V3WgMnOuHtOhyxvSasmG3fQuWRJgKMnxwaQ/SZKqsbl2A1bJ/yJaX9nNlm0+QjJuuy3ZUemtozx4K5bZXmffkmMklt8gLHFK0iiXiVoavqQMTgpKmMAISS4BOzKEKvd27/KNUAAAAdRKGDQA2JIdAA3KkRF9WaUYSVFDkXZEF3L6EA5Iyls0nGzOS6gKMe446HBk0gInLVETWqHkQo8hThJLp0MM2PSb/o6tIzmrVXwBzyfHr+cBOTjtE5Jcb3fwFkkqrqAR2nKXwV/VsTdVvkwl/8APK9PtRrPXCqgjreXiuw47rTbX3OTHLST5NvD5Xboo70iXNXVCwS53/wlNPdelgXkmlySnZOd2lST2VFdSBRkt+jGKGNLgpgIAADpABgIADzJAEpO6SJkEcqfqNyKFQ0SmTCbZBTkKurEuXZTAKM2ivPZNhUyiZJbs0kzGeQCsmUyjJ0/uRGWtgpuvT6gZ5FWn3TIm/M/Xt2J8Q0u9vqPA6t10/NgTg97ZeZr3fP/AAxlkq33MckwOmGRtJrg6fCySkzzocaddK/4deLVt/jKj0YRj0lVkTg1vlXrt7mPhYOTt6N/8lOltWBrFUNtLqIWSKaogoz8m7LABWA7ADpAAAAoQIClwZsrhfUy85QMEhLe+g5KyKSdivoZ5mZRydANnKmVHIY+a/b6kKXL7aA0cjjyzfTex5JXb+Rh5mlsDrywtVz3OfNm4rb/AII8T4ror9WYKNNfqS3z8AOjxS1fN82csc9dG19x5HK2v3L3M8uO79fl/wAYGmP9T49QnOLddt+5E5JJ3e2kt+xOeTSXDpUgLwtO7799m8clXXY5o80a+fdL6hHo+Fkmnb6HRDNHS7nFh30OzDiX7qplGjnuqKI8yvlu/kiiBiAEAWIn/wDRDuAHW279B2ITYDsSdp8ohyKjwwCL1RDumaRYPJtrhFHNF+o8kqs0UPQzmlv0ZBxNybt36djVt9V9SpTVLerMszb4/tBVR0rb+HJlk8R0XYqa8q3yYYoveufmA8efTjV+vQ55Sb/db6HU4pc8N7OXxekmne+PQC80vK1pNPb9Ec+VemtdSlmW210r8+ZxZfFRbqnvS0613RB3YqTaf6m1ev5POl4mrW9c1srGlBSknarW+K5Rz4uG31aS+wHTO5JK03yZwVbvjubSkotLq17rtr638DDI/wBXN+nJR14Xy29X/Bph/dfyIbUVS239zo8PFKn9yo7MMevu/Y3VqKdO3055f+jPBt+nL7HSsvmtLXr6gXGPoXrqYRXljVtt9UXkxeZV/bIEsttqtdyyFGh2A/KuwAAHQ2RKRTEl3AEhiAASoPJb6jQ6Aib7nPkdnVKuWjmyAczx9LNXBLr+di/8PX8Zc4oKxlBPcl7IiK36/ZDyS9TPLy/XntSAWWDd+hyeJ/8AN8djfNDS3+dzjWRS2re+f+ARmyJqtpPqjmyZ4X+lPzK3ft0OzLit6baWzz3jSfl27Tf4wMs7cpb735f5N3KHCXa10/sjDKPmaUNLW3w0GXG3JPo+v3dkC8RHzSrpHWuW9FeHT03pUCyx/bH93fVUOFLncr/PYo7P8e1b/ctelGuBOSt8X86J3SvtR1eEjKna0qpfnwKi56j+n7G3hsMk227s0qfp7dEagNGaknLV2uvQp5N0lrqx0QCS/wCAhKabaXQYAAWAG4CABgIAKRGRvzLtX+hyjap9RpAUKStBLiqsSnxpL0AwySfbf2MJ8Pk78rRy5X/RRxY47a2wzSr0Yk3dpv1Rj4uDk7vSsis/EZXajfojNNRr4p109TSKkmmmuPkh5Er9kBjlzK0l7XxZhmd61fRfdlOMr302uDmlbk2ogaTmkv0rm7vZcsqkv09Fvj46+ZHhVU0pJ1t060aTwxi21HV0viBjHL5v/J6Hg/D1cqva2+ehnipNNqvr7HfiTlKuEl8SouUHOqpfYqGHyyS23u+iRSi3pF4sFJW99fUDYJSS79PqFClFXZA7BCsSkAlkTbSKEwAYCADoAAABisAGFisLAdif1FYWBm7St7fV7+hnOX6bqjbIrVXRM4vnt0KOLFikum+n+2zLPjk3v6cHpYbq31DLDsvz1A8qUpapUvhv3Mf1env1rsehmW6Jjj1ddWvgIPOmuK62t9e5HNU6+r0dkMHml7a9EbR8LbWlS5fsIOGGFunJ0ub5Kjicpa2k9duDrxeETk3TpcdvU7Y40lVAcPh/DrzbV+vauD0I46t3yYYskrry0u7HlxycrvQGl1tP3/oqM0zJwimlva+RWOCSpEFqV9wYJmMvE/q8tdANAE5BYDBlJdzHJ4qPmUVtgaAR5gA6kMlCsCrCyWhWBVhYgABiACkVRFkeVJ2ANJu7etUVF2iY0un9kY8rbdqtgOWOVriur4stmfiMblSul19i4pcLpooybjjVVbf1shY27XCv5o6HEU8kYq2wJ/xxgr335+rKUtWTOEZUCRBaRf8AjIlUeXTOapStqXPoB0SruhHPgwKPLt/U2AYmDEAxMLJbAnJC3fVcdh+VcgADoQxAdQhWJsC77/IRKCwKAmwsCrCybFYF2R5gbEgLSBk+ZkY5Ot8gbIyxSjvy93vuOxIBzW7uimyGFgVYkxWJsCssYunLnhLoKNRX+jPJFNUxgLGk/wBW99yybFYFNisXmFYDbJTCQrAoGybFYFeYZFgB1AAAAgABgAAIQAACAAGxMAABgACkIAATEwAAEwABAwABCAAAQAAgQAAgAAP/2Q=="
-            },
-            {
-                "name": "Meat",
-                "imageUrl": "https://media.istockphoto.com/photos/fillet-steak-beef-meat-picture-id475336398?k=6&m=475336398&s=612x612&w=0&h=Ke2IPJGmQclTrO6nBw0QReZLwhQ7FdFJDkVaE0j2Siw="
-            },
-            {
-                "name": "Chicken",
-                "imageUrl": "https://st2.depositphotos.com/3472015/5796/i/950/depositphotos_57968421-stock-photo-raw-chicken.jpg"
-            }
-        ],
-        "imageUrl": "assets/images/foods/hamburger.png",
-        "cookTime": "13min"
-    },
-    {
-        "foodId": 5,
-        "foodName": "Pizza",
-        "cuisine": "American",
-        "ingredients": [{
-                "name": "Dough",
-                "imageUrl": "data:image/jpeg;base64,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"
-            },
-            {
-                "name": "Tikka",
-                "imageUrl": "https://media.istockphoto.com/photos/fillet-steak-beef-meat-picture-id475336398?k=6&m=475336398&s=612x612&w=0&h=Ke2IPJGmQclTrO6nBw0QReZLwhQ7FdFJDkVaE0j2Siw="
-            },
-            {
-                "name": "Zatoon",
-                "imageUrl": "https://st2.depositphotos.com/3472015/5796/i/950/depositphotos_57968421-stock-photo-raw-chicken.jpg"
-            }
-        ],
-        "imageUrl": "assets/images/foods/pizza.png",
-        "cookTime": "17min"
-    },
-    {
         "foodId": 6,
         "foodName": "Indian Chickpeas",
         "cuisine": "Indian",
         "ingredients": [{
                 "name": "Vegetable Oil",
-                "imageUrl": "data:image/jpeg;base64,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"
+                "quantity": "2 Tablespoons",
+                "imageUrl": "assets/images/ingredients/Vegetable Oil.png"
             },
             {
                 "name": "Garlic",
-                "imageUrl": "https://media.istockphoto.com/photos/fillet-steak-beef-meat-picture-id475336398?k=6&m=475336398&s=612x612&w=0&h=Ke2IPJGmQclTrO6nBw0QReZLwhQ7FdFJDkVaE0j2Siw="
+                "quantity": "4 Cloves",
+                "imageUrl": "assets/images/ingredients/Garlic.png"
             },
             {
                 "name": "Onion",
-                "imageUrl": "https://st2.depositphotos.com/3472015/5796/i/950/depositphotos_57968421-stock-photo-raw-chicken.jpg"
+                "quantity": "1/2 Cup",
+                "imageUrl": "assets/images/ingredients/Onion.png"
             },
             {
                 "name": "Ginger",
-                "imageUrl": "data:image/jpeg;base64,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"
+                "quantity": "1 Tablespoon",
+                "imageUrl": "assets/images/ingredients/ginger.png"
             },
             {
                 "name": "Garam Masala",
-                "imageUrl": "https://media.istockphoto.com/photos/fillet-steak-beef-meat-picture-id475336398?k=6&m=475336398&s=612x612&w=0&h=Ke2IPJGmQclTrO6nBw0QReZLwhQ7FdFJDkVaE0j2Siw="
+                "quantity": "1/2 Teaspoon",
+                "imageUrl": "assets/images/ingredients/Garam Masala.png"
             },
             {
                 "name": "Channa Masala",
-                "imageUrl": "https://st2.depositphotos.com/3472015/5796/i/950/depositphotos_57968421-stock-photo-raw-chicken.jpg"
+                "quantity": "2 Teaspoons",
+                "imageUrl": "assets/images/ingredients/Ground Cardamom.png"
             },
             {
                 "name": "Tomato",
-                "imageUrl": "data:image/jpeg;base64,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"
+                "quantity": "1 Large",
+                "imageUrl": "assets/images/ingredients/Tomato.png"
             },
             {
                 "name": "Water",
-                "imageUrl": "https://media.istockphoto.com/photos/fillet-steak-beef-meat-picture-id475336398?k=6&m=475336398&s=612x612&w=0&h=Ke2IPJGmQclTrO6nBw0QReZLwhQ7FdFJDkVaE0j2Siw="
+                "quantity": "1 & 1/2 Cups",
+                "imageUrl": "assets/images/ingredients/water.png"
             },
             {
                 "name": "Garbanzo Beans",
-                "imageUrl": "https://st2.depositphotos.com/3472015/5796/i/950/depositphotos_57968421-stock-photo-raw-chicken.jpg"
+                "quantity": "2 Cans",
+                "imageUrl": "assets/images/ingredients/Garbanzo Beans.png"
             },
             {
                 "name": "Salt",
-                "imageUrl": "https://st2.depositphotos.com/3472015/5796/i/950/depositphotos_57968421-stock-photo-raw-chicken.jpg"
+                "quantity": "As Per Taste",
+                "imageUrl": "assets/images/ingredients/salt.png"
             }
         ],
-        "imageUrl": "assets/images/foods/chickpeas.jpg",
-        "cookTime": "17min"
-    },
-    {
-        "foodId": 7,
-        "foodName": "Indian Curry With Paneer",
-        "cuisine": "Indian",
-        "ingredients": [{
-                "name": "Olive Oil",
-                "imageUrl": "data:image/jpeg;base64,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"
-            },
-            {
-                "name": "Onion",
-                "imageUrl": "https://media.istockphoto.com/photos/fillet-steak-beef-meat-picture-id475336398?k=6&m=475336398&s=612x612&w=0&h=Ke2IPJGmQclTrO6nBw0QReZLwhQ7FdFJDkVaE0j2Siw="
-            },
-            {
-                "name": "Garlic",
-                "imageUrl": "https://st2.depositphotos.com/3472015/5796/i/950/depositphotos_57968421-stock-photo-raw-chicken.jpg"
-            },
-            {
-                "name": "Ginger",
-                "imageUrl": "data:image/jpeg;base64,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"
-            },
-            {
-                "name": "Serrano Peppers",
-                "imageUrl": "https://media.istockphoto.com/photos/fillet-steak-beef-meat-picture-id475336398?k=6&m=475336398&s=612x612&w=0&h=Ke2IPJGmQclTrO6nBw0QReZLwhQ7FdFJDkVaE0j2Siw="
-            },
-            {
-                "name": "Chili Powder",
-                "imageUrl": "https://st2.depositphotos.com/3472015/5796/i/950/depositphotos_57968421-stock-photo-raw-chicken.jpg"
-            },
-            {
-                "name": "Ground Cumin",
-                "imageUrl": "data:image/jpeg;base64,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"
-            },
-            {
-                "name": "Ground Coriander",
-                "imageUrl": "https://media.istockphoto.com/photos/fillet-steak-beef-meat-picture-id475336398?k=6&m=475336398&s=612x612&w=0&h=Ke2IPJGmQclTrO6nBw0QReZLwhQ7FdFJDkVaE0j2Siw="
-            },
-            {
-                "name": "Garam Masala",
-                "imageUrl": "https://st2.depositphotos.com/3472015/5796/i/950/depositphotos_57968421-stock-photo-raw-chicken.jpg"
-            },
-            {
-                "name": "Ground Tumeric",
-                "imageUrl": "https://st2.depositphotos.com/3472015/5796/i/950/depositphotos_57968421-stock-photo-raw-chicken.jpg"
-            },
-            {
-                "name": "Tomato Puree",
-                "imageUrl": "https://media.istockphoto.com/photos/fillet-steak-beef-meat-picture-id475336398?k=6&m=475336398&s=612x612&w=0&h=Ke2IPJGmQclTrO6nBw0QReZLwhQ7FdFJDkVaE0j2Siw="
-            },
-            {
-                "name": "Ketchup",
-                "imageUrl": "https://st2.depositphotos.com/3472015/5796/i/950/depositphotos_57968421-stock-photo-raw-chicken.jpg"
-            },
-            {
-                "name": "Paneer",
-                "imageUrl": "data:image/jpeg;base64,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"
-            },
-            {
-                "name": "Green Peas",
-                "imageUrl": "https://media.istockphoto.com/photos/fillet-steak-beef-meat-picture-id475336398?k=6&m=475336398&s=612x612&w=0&h=Ke2IPJGmQclTrO6nBw0QReZLwhQ7FdFJDkVaE0j2Siw="
-            },
-            {
-                "name": "Whipping Cream",
-                "imageUrl": "https://st2.depositphotos.com/3472015/5796/i/950/depositphotos_57968421-stock-photo-raw-chicken.jpg"
-            },
-            {
-                "name": "Cilantro Leaves",
-                "imageUrl": "data:image/jpeg;base64,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"
-            }
-
-        ],
-        "imageUrl": "assets/images/foods/chickpeas.jpg",
-        "cookTime": "65min"
+        "imageUrl": "assets/images/foods/Indian Chickpeas.png",
+        "cookTime": "17min",
+        "directions": [{
+            "id": 1,
+            "step": "Heat oil in a saucepan over medium-high heat. Stir in the garlic, onion, and ginger, and cook until browned. Stir in the garam masala, channa masala spice, tomato, water, and garbanzos; season to taste with salt. Bring to a simmer, the reduce heat to low, cover and simmer until garbanzos are very soft, about 20 minutes."
+        }]
     },
     {
         "foodId": 8,
@@ -226,846 +66,57 @@
         "cuisine": "Indian",
         "ingredients": [{
                 "name": "Dried Moong Dal",
-                "imageUrl": "data:image/jpeg;base64,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"
+                "quantity": "1/2 Cup",
+                "imageUrl": "assets/images/ingredients/dried moong dal.png"
             },
             {
                 "name": "Olive Oil",
-                "imageUrl": "https://media.istockphoto.com/photos/fillet-steak-beef-meat-picture-id475336398?k=6&m=475336398&s=612x612&w=0&h=Ke2IPJGmQclTrO6nBw0QReZLwhQ7FdFJDkVaE0j2Siw="
+                "quantity": "1 Tablespoon",
+                "imageUrl": "assets/images/ingredients/Olive Oil.png"
+
             },
             {
                 "name": "Ground Tumeric",
-                "imageUrl": "https://st2.depositphotos.com/3472015/5796/i/950/depositphotos_57968421-stock-photo-raw-chicken.jpg"
+                "quantity": "1/2 Tablespoon",
+                "imageUrl": "assets/images/ingredients/Ground Turmeric.png"
             },
             {
                 "name": "Cumin Seeds",
-                "imageUrl": "data:image/jpeg;base64,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"
+                "quantity": "1/4 Tablespoons",
+                "imageUrl": "assets/images/ingredients/cuminseeds.png"
             },
             {
                 "name": "Chopped Kale",
-                "imageUrl": "https://media.istockphoto.com/photos/fillet-steak-beef-meat-picture-id475336398?k=6&m=475336398&s=612x612&w=0&h=Ke2IPJGmQclTrO6nBw0QReZLwhQ7FdFJDkVaE0j2Siw="
+                "quantity": "3 Cups",
+                "imageUrl": "assets/images/ingredients/kale.png"
             },
             {
                 "name": "Chili Powder",
-                "imageUrl": "https://st2.depositphotos.com/3472015/5796/i/950/depositphotos_57968421-stock-photo-raw-chicken.jpg"
+                "quantity": "1 Pinch",
+                "imageUrl": "assets/images/ingredients/Chili Powder.png"
             },
             {
                 "name": "Salt",
-                "imageUrl": "data:image/jpeg;base64,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"
+                "quantity": "As Per Taste",
+                "imageUrl": "assets/images/ingredients/salt.png"
             },
             {
                 "name": "Water",
-                "imageUrl": "https://media.istockphoto.com/photos/fillet-steak-beef-meat-picture-id475336398?k=6&m=475336398&s=612x612&w=0&h=Ke2IPJGmQclTrO6nBw0QReZLwhQ7FdFJDkVaE0j2Siw="
+                "quantity": "1/4 Cup",
+                "imageUrl": "assets/images/ingredients/water.png"
             }
         ],
-        "imageUrl": "assets/images/foods/chickpeas.jpg",
-        "cookTime": "55min"
-    },
-    {
-        "foodId": 9,
-        "foodName": "Indian Carrots, Peas And Potatoes",
-        "cuisine": "Indian",
-        "ingredients": [{
-                "name": "Vegetable Oil",
-                "imageUrl": "data:image/jpeg;base64,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"
+        "imageUrl": "assets/images/foods/Indian Kale And Moong Dal.jpg",
+        "cookTime": "55min",
+        "directions": [{
+                "id": 1,
+                "step": "Soak moong dal in water for 30 minutes. Drain."
             },
             {
-                "name": "Onion",
-                "imageUrl": "https://media.istockphoto.com/photos/fillet-steak-beef-meat-picture-id475336398?k=6&m=475336398&s=612x612&w=0&h=Ke2IPJGmQclTrO6nBw0QReZLwhQ7FdFJDkVaE0j2Siw="
-            },
-            {
-                "name": "Ground Tumeric",
-                "imageUrl": "https://st2.depositphotos.com/3472015/5796/i/950/depositphotos_57968421-stock-photo-raw-chicken.jpg"
-            },
-            {
-                "name": "Ground Coriander",
-                "imageUrl": "data:image/jpeg;base64,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"
-            },
-            {
-                "name": "Salt",
-                "imageUrl": "https://media.istockphoto.com/photos/fillet-steak-beef-meat-picture-id475336398?k=6&m=475336398&s=612x612&w=0&h=Ke2IPJGmQclTrO6nBw0QReZLwhQ7FdFJDkVaE0j2Siw="
-            },
-            {
-                "name": "Chili Powder",
-                "imageUrl": "https://st2.depositphotos.com/3472015/5796/i/950/depositphotos_57968421-stock-photo-raw-chicken.jpg"
-            },
-            {
-                "name": "Ground Cumin",
-                "imageUrl": "data:image/jpeg;base64,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"
-            },
-            {
-                "name": "Potato",
-                "imageUrl": "https://media.istockphoto.com/photos/fillet-steak-beef-meat-picture-id475336398?k=6&m=475336398&s=612x612&w=0&h=Ke2IPJGmQclTrO6nBw0QReZLwhQ7FdFJDkVaE0j2Siw="
-            },
-            {
-                "name": "Green Peas",
-                "imageUrl": "https://st2.depositphotos.com/3472015/5796/i/950/depositphotos_57968421-stock-photo-raw-chicken.jpg"
-            },
-            {
-                "name": "Carrot",
-                "imageUrl": "https://st2.depositphotos.com/3472015/5796/i/950/depositphotos_57968421-stock-photo-raw-chicken.jpg"
-            },
-            {
-                "name": "Water",
-                "imageUrl": "https://st2.depositphotos.com/3472015/5796/i/950/depositphotos_57968421-stock-photo-raw-chicken.jpg"
+                "id": 2,
+                "step": "Heat oil in a large pan over medium-low heat. Add turmeric and cumin seeds; cook until seeds start crackling. Add kale and soaked dal, followed by chili powder and salt. Pour in 1/4 cup water; bring to a boil. Reduce heat back to medium-low and cover the pan. Cook, mixing every 5 minutes, until desired tenderness is reached, 10 to 20 minutes total."
             }
-        ],
-        "imageUrl": "assets/images/foods/chickpeas.jpg",
-        "cookTime": "17min"
-    },
-    {
-        "foodId": 10,
-        "foodName": "Indian Crepes",
-        "cuisine": "Indian",
-        "ingredients": [{
-                "name": "All-Purpose Flour",
-                "imageUrl": "data:image/jpeg;base64,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"
-            },
-            {
-                "name": "Water",
-                "imageUrl": "https://media.istockphoto.com/photos/fillet-steak-beef-meat-picture-id475336398?k=6&m=475336398&s=612x612&w=0&h=Ke2IPJGmQclTrO6nBw0QReZLwhQ7FdFJDkVaE0j2Siw="
-            },
-            {
-                "name": "Egg",
-                "imageUrl": "https://st2.depositphotos.com/3472015/5796/i/950/depositphotos_57968421-stock-photo-raw-chicken.jpg"
-            },
-            {
-                "name": "Butter",
-                "imageUrl": "data:image/jpeg;base64,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"
-            },
-            {
-                "name": "Salt",
-                "imageUrl": "https://media.istockphoto.com/photos/fillet-steak-beef-meat-picture-id475336398?k=6&m=475336398&s=612x612&w=0&h=Ke2IPJGmQclTrO6nBw0QReZLwhQ7FdFJDkVaE0j2Siw="
-            },
-            {
-                "name": "Caraway Seeds",
-                "imageUrl": "https://st2.depositphotos.com/3472015/5796/i/950/depositphotos_57968421-stock-photo-raw-chicken.jpg"
-            }
-        ],
-        "imageUrl": "assets/images/foods/chickpeas.jpg",
-        "cookTime": "30min"
-    },
-    {
-        "foodId": 11,
-        "foodName": "Easy Chicken Flautas",
-        "cuisine": "Mexican",
-        "ingredients": [{
-                "name": "Butter",
-                "imageUrl": "data:image/jpeg;base64,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"
-            },
-            {
-                "name": "All-Purpose Flour",
-                "imageUrl": "https://media.istockphoto.com/photos/fillet-steak-beef-meat-picture-id475336398?k=6&m=475336398&s=612x612&w=0&h=Ke2IPJGmQclTrO6nBw0QReZLwhQ7FdFJDkVaE0j2Siw="
-            },
-            {
-                "name": "Onion",
-                "imageUrl": "https://st2.depositphotos.com/3472015/5796/i/950/depositphotos_57968421-stock-photo-raw-chicken.jpg"
-            },
-            {
-                "name": "Black Olives",
-                "imageUrl": "data:image/jpeg;base64,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"
-            },
-            {
-                "name": "Lemon Juice",
-                "imageUrl": "https://media.istockphoto.com/photos/fillet-steak-beef-meat-picture-id475336398?k=6&m=475336398&s=612x612&w=0&h=Ke2IPJGmQclTrO6nBw0QReZLwhQ7FdFJDkVaE0j2Siw="
-            },
-            {
-                "name": "Oil",
-                "imageUrl": "https://st2.depositphotos.com/3472015/5796/i/950/depositphotos_57968421-stock-photo-raw-chicken.jpg"
-            },
-            {
-                "name": "Ground Paprika",
-                "imageUrl": "data:image/jpeg;base64,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"
-            },
-            {
-                "name": "Ground Black Pepper",
-                "imageUrl": "https://media.istockphoto.com/photos/fillet-steak-beef-meat-picture-id475336398?k=6&m=475336398&s=612x612&w=0&h=Ke2IPJGmQclTrO6nBw0QReZLwhQ7FdFJDkVaE0j2Siw="
-            },
-            {
-                "name": "Salt",
-                "imageUrl": "https://st2.depositphotos.com/3472015/5796/i/950/depositphotos_57968421-stock-photo-raw-chicken.jpg"
-            },
-            {
-                "name": "Shredded Chicken",
-                "imageUrl": "https://st2.depositphotos.com/3472015/5796/i/950/depositphotos_57968421-stock-photo-raw-chicken.jpg"
-            },
-            {
-                "name": "Tortillas",
-                "imageUrl": "https://media.istockphoto.com/photos/fillet-steak-beef-meat-picture-id475336398?k=6&m=475336398&s=612x612&w=0&h=Ke2IPJGmQclTrO6nBw0QReZLwhQ7FdFJDkVaE0j2Siw="
-            },
-            {
-                "name": "Toothpicks",
-                "imageUrl": "https://st2.depositphotos.com/3472015/5796/i/950/depositphotos_57968421-stock-photo-raw-chicken.jpg"
-            }
-
-        ],
-        "imageUrl": "assets/images/foods/chickpeas.jpg",
-        "cookTime": "65min"
-    },
-    {
-        "foodId": 12,
-        "foodName": "Drowned Beef Sandwich With Sauce",
-        "cuisine": "Mexican",
-        "ingredients": [{
-                "name": "Chipotle Cooking Sauce",
-                "imageUrl": "data:image/jpeg;base64,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"
-            },
-            {
-                "name": "Reduced Sodium Beef Broth",
-                "imageUrl": "https://media.istockphoto.com/photos/fillet-steak-beef-meat-picture-id475336398?k=6&m=475336398&s=612x612&w=0&h=Ke2IPJGmQclTrO6nBw0QReZLwhQ7FdFJDkVaE0j2Siw="
-            },
-            {
-                "name": "Cilantro Leaves",
-                "imageUrl": "https://st2.depositphotos.com/3472015/5796/i/950/depositphotos_57968421-stock-photo-raw-chicken.jpg"
-            },
-            {
-                "name": "Vegetable Oil",
-                "imageUrl": "data:image/jpeg;base64,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"
-            },
-            {
-                "name": "Onion",
-                "imageUrl": "https://media.istockphoto.com/photos/fillet-steak-beef-meat-picture-id475336398?k=6&m=475336398&s=612x612&w=0&h=Ke2IPJGmQclTrO6nBw0QReZLwhQ7FdFJDkVaE0j2Siw="
-            },
-            {
-                "name": "Chili Powder",
-                "imageUrl": "https://st2.depositphotos.com/3472015/5796/i/950/depositphotos_57968421-stock-photo-raw-chicken.jpg"
-            },
-            {
-                "name": "Garlic",
-                "imageUrl": "data:image/jpeg;base64,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"
-            },
-            {
-                "name": "Deli Roast Beef",
-                "imageUrl": "https://media.istockphoto.com/photos/fillet-steak-beef-meat-picture-id475336398?k=6&m=475336398&s=612x612&w=0&h=Ke2IPJGmQclTrO6nBw0QReZLwhQ7FdFJDkVaE0j2Siw="
-            },
-            {
-                "name": "bolilo rolls",
-                "imageUrl": "https://st2.depositphotos.com/3472015/5796/i/950/depositphotos_57968421-stock-photo-raw-chicken.jpg"
-            }
-        ],
-        "imageUrl": "assets/images/foods/chickpeas.jpg",
-        "cookTime": "35 min"
-    },
-    {
-        "foodId": 13,
-        "foodName": "Secret Salsa",
-        "cuisine": "Mexican",
-        "ingredients": [{
-                "name": "Parsley",
-                "imageUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUTExIVFRUXFRUVGBUXFRUVFRUVFRcWFxUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDw8NDysZFRktLSsrNys3LTctKys3Kys3NzcrLS03KysrKy03LSsrKysrKysrKy0rKysrKysrKysrK//AABEIAOEA4QMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAAAAQIDBAUH/8QALxAAAgICAQIEBQQDAQEBAAAAAAECEQMhMUFRBBJhcYGRobHwIjLB8RPR4UJSFP/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/APtQhiABRlZMpDiBQAAAACAYgE2AxkUNMBsQ0TGVgMQxAAmMQASnYNggGIYgAQxAAASwKEKhpgFgAAdBEpFSQoxAIxKAAAAAAEAAMlFCaATBIaQwEIqhMBCCcqpVz9BgIhsqSEl1AEgGACENiAQAACFBjE0A33EAAABYAdIAAAAAAAAAAACYABCcvQI31YFgiQTAmcpeb0r6lWZ8cvn8otAWxeZUZzXma3pGeOC2ru+QNIzfXX8lETx3XzLoBAA7VbAWuWZwyKXH57Dx5LXBVAJiGJgANCM8ik5J3oDQQAAgHQAdIAAAAAAN0rIx5VJWimCiAWJR69RKV8CyS490UUhPIKTMZSAeTLx7m9aOdR12fJSegBz3v4FRyUc0pMWWQGznz+e5OFpNvfv3MG2GWdIDtxy2PJPaOeDtIeN3K+f4A6PMroZk7XYVt1v+gNaEUkJtdyCRDsQCAB6qwEISkntDAKAVgB1ABDbv0AoCa9xpgNmc49mOUV5vWiqKIxQpIp18QciGvroBzRnBdTRg0vYgifqZxyWuC8zMoxConFSf89gnG9F+Xugm1V3WgMnOuHtOhyxvSasmG3fQuWRJgKMnxwaQ/SZKqsbl2A1bJ/yJaX9nNlm0+QjJuuy3ZUemtozx4K5bZXmffkmMklt8gLHFK0iiXiVoavqQMTgpKmMAISS4BOzKEKvd27/KNUAAAAdRKGDQA2JIdAA3KkRF9WaUYSVFDkXZEF3L6EA5Iyls0nGzOS6gKMe446HBk0gInLVETWqHkQo8hThJLp0MM2PSb/o6tIzmrVXwBzyfHr+cBOTjtE5Jcb3fwFkkqrqAR2nKXwV/VsTdVvkwl/8APK9PtRrPXCqgjreXiuw47rTbX3OTHLST5NvD5Xboo70iXNXVCwS53/wlNPdelgXkmlySnZOd2lST2VFdSBRkt+jGKGNLgpgIAADpABgIADzJAEpO6SJkEcqfqNyKFQ0SmTCbZBTkKurEuXZTAKM2ivPZNhUyiZJbs0kzGeQCsmUyjJ0/uRGWtgpuvT6gZ5FWn3TIm/M/Xt2J8Q0u9vqPA6t10/NgTg97ZeZr3fP/AAxlkq33MckwOmGRtJrg6fCySkzzocaddK/4deLVt/jKj0YRj0lVkTg1vlXrt7mPhYOTt6N/8lOltWBrFUNtLqIWSKaogoz8m7LABWA7ADpAAAAoQIClwZsrhfUy85QMEhLe+g5KyKSdivoZ5mZRydANnKmVHIY+a/b6kKXL7aA0cjjyzfTex5JXb+Rh5mlsDrywtVz3OfNm4rb/AII8T4ror9WYKNNfqS3z8AOjxS1fN82csc9dG19x5HK2v3L3M8uO79fl/wAYGmP9T49QnOLddt+5E5JJ3e2kt+xOeTSXDpUgLwtO7799m8clXXY5o80a+fdL6hHo+Fkmnb6HRDNHS7nFh30OzDiX7qplGjnuqKI8yvlu/kiiBiAEAWIn/wDRDuAHW279B2ITYDsSdp8ohyKjwwCL1RDumaRYPJtrhFHNF+o8kqs0UPQzmlv0ZBxNybt36djVt9V9SpTVLerMszb4/tBVR0rb+HJlk8R0XYqa8q3yYYoveufmA8efTjV+vQ55Sb/db6HU4pc8N7OXxekmne+PQC80vK1pNPb9Ec+VemtdSlmW210r8+ZxZfFRbqnvS0613RB3YqTaf6m1ev5POl4mrW9c1srGlBSknarW+K5Rz4uG31aS+wHTO5JK03yZwVbvjubSkotLq17rtr638DDI/wBXN+nJR14Xy29X/Bph/dfyIbUVS239zo8PFKn9yo7MMevu/Y3VqKdO3055f+jPBt+nL7HSsvmtLXr6gXGPoXrqYRXljVtt9UXkxeZV/bIEsttqtdyyFGh2A/KuwAAHQ2RKRTEl3AEhiAASoPJb6jQ6Aib7nPkdnVKuWjmyAczx9LNXBLr+di/8PX8Zc4oKxlBPcl7IiK36/ZDyS9TPLy/XntSAWWDd+hyeJ/8AN8djfNDS3+dzjWRS2re+f+ARmyJqtpPqjmyZ4X+lPzK3ft0OzLit6baWzz3jSfl27Tf4wMs7cpb735f5N3KHCXa10/sjDKPmaUNLW3w0GXG3JPo+v3dkC8RHzSrpHWuW9FeHT03pUCyx/bH93fVUOFLncr/PYo7P8e1b/ctelGuBOSt8X86J3SvtR1eEjKna0qpfnwKi56j+n7G3hsMk227s0qfp7dEagNGaknLV2uvQp5N0lrqx0QCS/wCAhKabaXQYAAWAG4CABgIAKRGRvzLtX+hyjap9RpAUKStBLiqsSnxpL0AwySfbf2MJ8Pk78rRy5X/RRxY47a2wzSr0Yk3dpv1Rj4uDk7vSsis/EZXajfojNNRr4p109TSKkmmmuPkh5Er9kBjlzK0l7XxZhmd61fRfdlOMr302uDmlbk2ogaTmkv0rm7vZcsqkv09Fvj46+ZHhVU0pJ1t060aTwxi21HV0viBjHL5v/J6Hg/D1cqva2+ehnipNNqvr7HfiTlKuEl8SouUHOqpfYqGHyyS23u+iRSi3pF4sFJW99fUDYJSS79PqFClFXZA7BCsSkAlkTbSKEwAYCADoAAABisAGFisLAdif1FYWBm7St7fV7+hnOX6bqjbIrVXRM4vnt0KOLFikum+n+2zLPjk3v6cHpYbq31DLDsvz1A8qUpapUvhv3Mf1env1rsehmW6Jjj1ddWvgIPOmuK62t9e5HNU6+r0dkMHml7a9EbR8LbWlS5fsIOGGFunJ0ub5Kjicpa2k9duDrxeETk3TpcdvU7Y40lVAcPh/DrzbV+vauD0I46t3yYYskrry0u7HlxycrvQGl1tP3/oqM0zJwimlva+RWOCSpEFqV9wYJmMvE/q8tdANAE5BYDBlJdzHJ4qPmUVtgaAR5gA6kMlCsCrCyWhWBVhYgABiACkVRFkeVJ2ANJu7etUVF2iY0un9kY8rbdqtgOWOVriur4stmfiMblSul19i4pcLpooybjjVVbf1shY27XCv5o6HEU8kYq2wJ/xxgr335+rKUtWTOEZUCRBaRf8AjIlUeXTOapStqXPoB0SruhHPgwKPLt/U2AYmDEAxMLJbAnJC3fVcdh+VcgADoQxAdQhWJsC77/IRKCwKAmwsCrCybFYF2R5gbEgLSBk+ZkY5Ot8gbIyxSjvy93vuOxIBzW7uimyGFgVYkxWJsCssYunLnhLoKNRX+jPJFNUxgLGk/wBW99yybFYFNisXmFYDbJTCQrAoGybFYFeYZFgB1AAAAgABgAAIQAACAAGxMAABgACkIAATEwAAEwABAwABCAAAQAAgQAAgAAP/2Q=="
-            },
-            {
-                "name": "Cilantro Leaves",
-                "imageUrl": "https://media.istockphoto.com/photos/fillet-steak-beef-meat-picture-id475336398?k=6&m=475336398&s=612x612&w=0&h=Ke2IPJGmQclTrO6nBw0QReZLwhQ7FdFJDkVaE0j2Siw="
-            },
-            {
-                "name": "lime",
-                "imageUrl": "https://st2.depositphotos.com/3472015/5796/i/950/depositphotos_57968421-stock-photo-raw-chicken.jpg"
-            },
-            {
-                "name": "salt",
-                "imageUrl": "data:image/jpeg;base64,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"
-            },
-            {
-                "name": "Garlic powder",
-                "imageUrl": "https://media.istockphoto.com/photos/fillet-steak-beef-meat-picture-id475336398?k=6&m=475336398&s=612x612&w=0&h=Ke2IPJGmQclTrO6nBw0QReZLwhQ7FdFJDkVaE0j2Siw="
-            },
-            {
-                "name": "Chili Powder",
-                "imageUrl": "https://st2.depositphotos.com/3472015/5796/i/950/depositphotos_57968421-stock-photo-raw-chicken.jpg"
-            },
-            {
-                "name": "Ground Black Pepper",
-                "imageUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUTExIVFRUXFRUVGBUXFRUVFRUVFRcWFxUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDw8NDysZFRktLSsrNys3LTctKys3Kys3NzcrLS03KysrKy03LSsrKysrKysrKy0rKysrKysrKysrK//AABEIAOEA4QMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAAAAQIDBAUH/8QALxAAAgICAQIEBQQDAQEBAAAAAAECEQMhMUFRBBJhcYGRobHwIjLB8RPR4UJSFP/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/APtQhiABRlZMpDiBQAAAACAYgE2AxkUNMBsQ0TGVgMQxAAmMQASnYNggGIYgAQxAAASwKEKhpgFgAAdBEpFSQoxAIxKAAAAAAEAAMlFCaATBIaQwEIqhMBCCcqpVz9BgIhsqSEl1AEgGACENiAQAACFBjE0A33EAAABYAdIAAAAAAAAAAACYABCcvQI31YFgiQTAmcpeb0r6lWZ8cvn8otAWxeZUZzXma3pGeOC2ru+QNIzfXX8lETx3XzLoBAA7VbAWuWZwyKXH57Dx5LXBVAJiGJgANCM8ik5J3oDQQAAgHQAdIAAAAAAN0rIx5VJWimCiAWJR69RKV8CyS490UUhPIKTMZSAeTLx7m9aOdR12fJSegBz3v4FRyUc0pMWWQGznz+e5OFpNvfv3MG2GWdIDtxy2PJPaOeDtIeN3K+f4A6PMroZk7XYVt1v+gNaEUkJtdyCRDsQCAB6qwEISkntDAKAVgB1ABDbv0AoCa9xpgNmc49mOUV5vWiqKIxQpIp18QciGvroBzRnBdTRg0vYgifqZxyWuC8zMoxConFSf89gnG9F+Xugm1V3WgMnOuHtOhyxvSasmG3fQuWRJgKMnxwaQ/SZKqsbl2A1bJ/yJaX9nNlm0+QjJuuy3ZUemtozx4K5bZXmffkmMklt8gLHFK0iiXiVoavqQMTgpKmMAISS4BOzKEKvd27/KNUAAAAdRKGDQA2JIdAA3KkRF9WaUYSVFDkXZEF3L6EA5Iyls0nGzOS6gKMe446HBk0gInLVETWqHkQo8hThJLp0MM2PSb/o6tIzmrVXwBzyfHr+cBOTjtE5Jcb3fwFkkqrqAR2nKXwV/VsTdVvkwl/8APK9PtRrPXCqgjreXiuw47rTbX3OTHLST5NvD5Xboo70iXNXVCwS53/wlNPdelgXkmlySnZOd2lST2VFdSBRkt+jGKGNLgpgIAADpABgIADzJAEpO6SJkEcqfqNyKFQ0SmTCbZBTkKurEuXZTAKM2ivPZNhUyiZJbs0kzGeQCsmUyjJ0/uRGWtgpuvT6gZ5FWn3TIm/M/Xt2J8Q0u9vqPA6t10/NgTg97ZeZr3fP/AAxlkq33MckwOmGRtJrg6fCySkzzocaddK/4deLVt/jKj0YRj0lVkTg1vlXrt7mPhYOTt6N/8lOltWBrFUNtLqIWSKaogoz8m7LABWA7ADpAAAAoQIClwZsrhfUy85QMEhLe+g5KyKSdivoZ5mZRydANnKmVHIY+a/b6kKXL7aA0cjjyzfTex5JXb+Rh5mlsDrywtVz3OfNm4rb/AII8T4ror9WYKNNfqS3z8AOjxS1fN82csc9dG19x5HK2v3L3M8uO79fl/wAYGmP9T49QnOLddt+5E5JJ3e2kt+xOeTSXDpUgLwtO7799m8clXXY5o80a+fdL6hHo+Fkmnb6HRDNHS7nFh30OzDiX7qplGjnuqKI8yvlu/kiiBiAEAWIn/wDRDuAHW279B2ITYDsSdp8ohyKjwwCL1RDumaRYPJtrhFHNF+o8kqs0UPQzmlv0ZBxNybt36djVt9V9SpTVLerMszb4/tBVR0rb+HJlk8R0XYqa8q3yYYoveufmA8efTjV+vQ55Sb/db6HU4pc8N7OXxekmne+PQC80vK1pNPb9Ec+VemtdSlmW210r8+ZxZfFRbqnvS0613RB3YqTaf6m1ev5POl4mrW9c1srGlBSknarW+K5Rz4uG31aS+wHTO5JK03yZwVbvjubSkotLq17rtr638DDI/wBXN+nJR14Xy29X/Bph/dfyIbUVS239zo8PFKn9yo7MMevu/Y3VqKdO3055f+jPBt+nL7HSsvmtLXr6gXGPoXrqYRXljVtt9UXkxeZV/bIEsttqtdyyFGh2A/KuwAAHQ2RKRTEl3AEhiAASoPJb6jQ6Aib7nPkdnVKuWjmyAczx9LNXBLr+di/8PX8Zc4oKxlBPcl7IiK36/ZDyS9TPLy/XntSAWWDd+hyeJ/8AN8djfNDS3+dzjWRS2re+f+ARmyJqtpPqjmyZ4X+lPzK3ft0OzLit6baWzz3jSfl27Tf4wMs7cpb735f5N3KHCXa10/sjDKPmaUNLW3w0GXG3JPo+v3dkC8RHzSrpHWuW9FeHT03pUCyx/bH93fVUOFLncr/PYo7P8e1b/ctelGuBOSt8X86J3SvtR1eEjKna0qpfnwKi56j+n7G3hsMk227s0qfp7dEagNGaknLV2uvQp5N0lrqx0QCS/wCAhKabaXQYAAWAG4CABgIAKRGRvzLtX+hyjap9RpAUKStBLiqsSnxpL0AwySfbf2MJ8Pk78rRy5X/RRxY47a2wzSr0Yk3dpv1Rj4uDk7vSsis/EZXajfojNNRr4p109TSKkmmmuPkh5Er9kBjlzK0l7XxZhmd61fRfdlOMr302uDmlbk2ogaTmkv0rm7vZcsqkv09Fvj46+ZHhVU0pJ1t060aTwxi21HV0viBjHL5v/J6Hg/D1cqva2+ehnipNNqvr7HfiTlKuEl8SouUHOqpfYqGHyyS23u+iRSi3pF4sFJW99fUDYJSS79PqFClFXZA7BCsSkAlkTbSKEwAYCADoAAABisAGFisLAdif1FYWBm7St7fV7+hnOX6bqjbIrVXRM4vnt0KOLFikum+n+2zLPjk3v6cHpYbq31DLDsvz1A8qUpapUvhv3Mf1env1rsehmW6Jjj1ddWvgIPOmuK62t9e5HNU6+r0dkMHml7a9EbR8LbWlS5fsIOGGFunJ0ub5Kjicpa2k9duDrxeETk3TpcdvU7Y40lVAcPh/DrzbV+vauD0I46t3yYYskrry0u7HlxycrvQGl1tP3/oqM0zJwimlva+RWOCSpEFqV9wYJmMvE/q8tdANAE5BYDBlJdzHJ4qPmUVtgaAR5gA6kMlCsCrCyWhWBVhYgABiACkVRFkeVJ2ANJu7etUVF2iY0un9kY8rbdqtgOWOVriur4stmfiMblSul19i4pcLpooybjjVVbf1shY27XCv5o6HEU8kYq2wJ/xxgr335+rKUtWTOEZUCRBaRf8AjIlUeXTOapStqXPoB0SruhHPgwKPLt/U2AYmDEAxMLJbAnJC3fVcdh+VcgADoQxAdQhWJsC77/IRKCwKAmwsCrCybFYF2R5gbEgLSBk+ZkY5Ot8gbIyxSjvy93vuOxIBzW7uimyGFgVYkxWJsCssYunLnhLoKNRX+jPJFNUxgLGk/wBW99yybFYFNisXmFYDbJTCQrAoGybFYFeYZFgB1AAAAgABgAAIQAACAAGxMAABgACkIAATEwAAEwABAwABCAAAQAAgQAAgAAP/2Q=="
-            },
-            {
-                "name": "Tomato",
-                "imageUrl": "https://media.istockphoto.com/photos/fillet-steak-beef-meat-picture-id475336398?k=6&m=475336398&s=612x612&w=0&h=Ke2IPJGmQclTrO6nBw0QReZLwhQ7FdFJDkVaE0j2Siw="
-            },
-            {
-                "name": "Onion",
-                "imageUrl": "https://st2.depositphotos.com/3472015/5796/i/950/depositphotos_57968421-stock-photo-raw-chicken.jpg"
-            },
-            {
-                "name": "Bell Pepper",
-                "imageUrl": "https://st2.depositphotos.com/3472015/5796/i/950/depositphotos_57968421-stock-photo-raw-chicken.jpg"
-            }
-        ],
-        "imageUrl": "assets/images/foods/chickpeas.jpg",
-        "cookTime": "17min"
-    },
-    {
-        "foodId": 14,
-        "foodName": "Milk Cake",
-        "cuisine": "Mexican",
-        "ingredients": [{
-                "name": "All-Purpose Flour",
-                "imageUrl": "data:image/jpeg;base64,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"
-            },
-            {
-                "name": "Baking Powder",
-                "imageUrl": "https://media.istockphoto.com/photos/fillet-steak-beef-meat-picture-id475336398?k=6&m=475336398&s=612x612&w=0&h=Ke2IPJGmQclTrO6nBw0QReZLwhQ7FdFJDkVaE0j2Siw="
-            },
-            {
-                "name": "Butter",
-                "imageUrl": "https://st2.depositphotos.com/3472015/5796/i/950/depositphotos_57968421-stock-photo-raw-chicken.jpg"
-            },
-            {
-                "name": "White Sugar",
-                "imageUrl": "data:image/jpeg;base64,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"
-            },
-            {
-                "name": "Egg",
-                "imageUrl": "https://media.istockphoto.com/photos/fillet-steak-beef-meat-picture-id475336398?k=6&m=475336398&s=612x612&w=0&h=Ke2IPJGmQclTrO6nBw0QReZLwhQ7FdFJDkVaE0j2Siw="
-            },
-            {
-                "name": "Vanilla Extract",
-                "imageUrl": "https://st2.depositphotos.com/3472015/5796/i/950/depositphotos_57968421-stock-photo-raw-chicken.jpg"
-            },
-            {
-                "name": "Milk",
-                "imageUrl": "data:image/jpeg;base64,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"
-            },
-            {
-                "name": "Sweetened Condensed Milk",
-                "imageUrl": "https://media.istockphoto.com/photos/fillet-steak-beef-meat-picture-id475336398?k=6&m=475336398&s=612x612&w=0&h=Ke2IPJGmQclTrO6nBw0QReZLwhQ7FdFJDkVaE0j2Siw="
-            },
-            {
-                "name": "Evaporated Milk",
-                "imageUrl": "https://st2.depositphotos.com/3472015/5796/i/950/depositphotos_57968421-stock-photo-raw-chicken.jpg"
-            },
-            {
-                "name": "Whipping Cream",
-                "imageUrl": "https://st2.depositphotos.com/3472015/5796/i/950/depositphotos_57968421-stock-photo-raw-chicken.jpg"
-            }
-        ],
-        "imageUrl": "assets/images/foods/chickpeas.jpg",
-        "cookTime": "25min"
-    },
-    {
-        "foodId": 15,
-        "foodName": "Homemade Flour Tortillas",
-        "cuisine": "Mexican",
-        "ingredients": [{
-                "name": "All-Purpose Flour",
-                "imageUrl": "data:image/jpeg;base64,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"
-            },
-            {
-                "name": "salt",
-                "imageUrl": "https://media.istockphoto.com/photos/fillet-steak-beef-meat-picture-id475336398?k=6&m=475336398&s=612x612&w=0&h=Ke2IPJGmQclTrO6nBw0QReZLwhQ7FdFJDkVaE0j2Siw="
-            },
-            {
-                "name": "Baking Powder",
-                "imageUrl": "https://st2.depositphotos.com/3472015/5796/i/950/depositphotos_57968421-stock-photo-raw-chicken.jpg"
-            },
-            {
-                "name": "Duck Fat",
-                "imageUrl": "data:image/jpeg;base64,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"
-            },
-            {
-                "name": "water",
-                "imageUrl": "https://media.istockphoto.com/photos/fillet-steak-beef-meat-picture-id475336398?k=6&m=475336398&s=612x612&w=0&h=Ke2IPJGmQclTrO6nBw0QReZLwhQ7FdFJDkVaE0j2Siw="
-            }
-        ],
-        "imageUrl": "assets/images/foods/chickpeas.jpg",
-        "cookTime": "17min"
-    },
-    {
-        "foodId": 16,
-        "foodName": "Chicken Biryani",
-        "cuisine": "Pakistani",
-        "ingredients": [{
-                "name": "Vegetable Oil",
-                "imageUrl": ""
-            },
-            {
-                "name": "Potato",
-                "imageUrl": ""
-            },
-            {
-                "name": "Onion",
-                "imageUrl": ""
-            },
-            {
-                "name": "Garlic",
-                "imageUrl": ""
-            },
-            {
-                "name": "Chili Powder",
-                "imageUrl": ""
-            },
-            {
-                "name": "Ground Black Pepper",
-                "imageUrl": ""
-            },
-            {
-                "name": "Ground Turmeric",
-                "imageUrl": ""
-            },
-            {
-                "name": "cumin",
-                "imageUrl": ""
-            },
-            {
-                "name": "Tomato",
-                "imageUrl": ""
-            },
-            {
-                "name": "plain yogurt",
-                "imageUrl": ""
-            },
-            {
-                "name": "Mint",
-                "imageUrl": ""
-            },
-            {
-                "name": "Ground Cardamom",
-                "imageUrl": ""
-            },
-            {
-                "name": "piece cinnamon stick",
-                "imageUrl": ""
-            },
-            {
-                "name": "Chicken Pieces",
-                "imageUrl": ""
-            },
-            {
-                "name": "saffron",
-                "imageUrl": ""
-            },
-            {
-                "name": "cloves",
-                "imageUrl": ""
-            },
-            {
-                "name": "ground ginger",
-                "imageUrl": ""
-            },
-            {
-                "name": "Basmati Rice",
-                "imageUrl": ""
-            },
-            {
-                "name": "chicken stock",
-                "imageUrl": ""
-            },
-            {
-                "name": "salt",
-                "imageUrl": ""
-            }
-        ],
-        "imageUrl": "",
-        "cookTime": "17min"
-    },
-    {
-        "foodId": 17,
-        "foodName": "Chicken Jalfrezi",
-        "cuisine": "Pakistani",
-        "ingredients": [{
-                "name": "Vegetable Oil",
-                "imageUrl": ""
-            },
-            {
-                "name": "Onion",
-                "imageUrl": ""
-            },
-            {
-                "name": "Garlic",
-                "imageUrl": ""
-            },
-            {
-                "name": "Chicken Pieces",
-                "imageUrl": ""
-            },
-            {
-                "name": "Ground Turmeric",
-                "imageUrl": ""
-            },
-            {
-                "name": "Chili Powder",
-                "imageUrl": ""
-            },
-            {
-                "name": "salt",
-                "imageUrl": ""
-            },
-            {
-                "name": "Tomato",
-                "imageUrl": ""
-            },
-            {
-                "name": "Ghee",
-                "imageUrl": ""
-            },
-            {
-                "name": "Ground Cumin",
-                "imageUrl": ""
-            },
-            {
-                "name": "Ground Coriander",
-                "imageUrl": ""
-            },
-            {
-                "name": "ginger root",
-                "imageUrl": ""
-            },
-            {
-                "name": "Cilantro Leaves",
-                "imageUrl": ""
-            }
-        ],
-        "imageUrl": "",
-        "cookTime": "17min"
-    },
-    {
-        "foodId": 18,
-        "foodName": "Chapli Kebab",
-        "cuisine": "Pakistani",
-        "ingredients": [{
-                "name": "Egg",
-                "imageUrl": ""
-            },
-            {
-                "name": "Ground Beef",
-                "imageUrl": ""
-            },
-            {
-                "name": "Tomato",
-                "imageUrl": ""
-            },
-            {
-                "name": "Red Onion",
-                "imageUrl": ""
-            },
-            {
-                "name": "Cilantro Leaves",
-                "imageUrl": ""
-            },
-            {
-                "name": "Mint",
-                "imageUrl": ""
-            },
-            {
-                "name": "ginger-garlic paste",
-                "imageUrl": ""
-            },
-            {
-                "name": "coriander seeds",
-                "imageUrl": ""
-            },
-            {
-                "name": "salt",
-                "imageUrl": ""
-            },
-            {
-                "name": "Ground Cumin",
-                "imageUrl": ""
-            },
-            {
-                "name": "Cayenne Pepper",
-                "imageUrl": ""
-            }
-
-        ],
-        "imageUrl": "",
-        "cookTime": "17min"
-    },
-    {
-        "foodId": 19,
-        "foodName": "Rice Pudding (Kheer)",
-        "cuisine": "Pakistani",
-        "ingredients": [{
-                "name": "White Rice",
-                "imageUrl": ""
-            },
-            {
-                "name": "Milk",
-                "imageUrl": ""
-            },
-            {
-                "name": "White Sugar",
-                "imageUrl": ""
-            },
-            {
-                "name": "Cardamom",
-                "imageUrl": ""
-            },
-            {
-                "name": "Rose Water",
-                "imageUrl": ""
-            },
-            {
-                "name": "Almonds",
-                "imageUrl": ""
-            }
-        ],
-        "imageUrl": "",
-        "cookTime": "17min"
-    },
-    {
-        "foodId": 20,
-        "foodName": "Kulfi",
-        "cuisine": "Pakistani",
-        "ingredients": [{
-                "name": "Evaporated Milk",
-                "imageUrl": ""
-            },
-            {
-                "name": "Table Cream",
-                "imageUrl": ""
-            },
-            {
-                "name": "Sweetened Condensed Milk",
-                "imageUrl": ""
-            },
-            {
-                "name": "white bread",
-                "imageUrl": ""
-            },
-            {
-                "name": "Ground Cardamom",
-                "imageUrl": ""
-            },
-            {
-                "name": "Almonds",
-                "imageUrl": ""
-            }
-        ],
-        "imageUrl": "",
-        "cookTime": "17min"
-    },
-    {
-        "foodId": 21,
-        "foodName": "Chakchouka (Shakshouka)",
-        "cuisine": "Middle-Eastern",
-        "ingredients": [{
-                "name": "Olive Oil",
-                "imageUrl": ""
-            },
-            {
-                "name": "Onion",
-                "imageUrl": ""
-            },
-            {
-                "name": "Bell Pepper",
-                "imageUrl": ""
-            },
-            {
-                "name": "Garlic",
-                "imageUrl": ""
-            },
-            {
-                "name": "Tomato",
-                "imageUrl": ""
-            },
-            {
-                "name": "Ground Cumin",
-                "imageUrl": ""
-            },
-            {
-                "name": "Paprika",
-                "imageUrl": ""
-            },
-            {
-                "name": "salt",
-                "imageUrl": ""
-            },
-            {
-                "name": "chili pepper",
-                "imageUrl": ""
-            },
-            {
-                "name": "Egg",
-                "imageUrl": ""
-            }
-        ],
-        "imageUrl": "",
-        "cookTime": "17min"
-    },
-    {
-        "foodId": 22,
-        "foodName": "Kanafa",
-        "cuisine": "Middle-Eastern",
-        "ingredients": [{
-                "name": "Phyllo Dough",
-                "imageUrl": ""
-            },
-            {
-                "name": "ricotta cheese",
-                "imageUrl": ""
-            },
-            {
-                "name": "mozzarella cheese",
-                "imageUrl": ""
-            },
-            {
-                "name": "White Sugar",
-                "imageUrl": ""
-            },
-            {
-                "name": "Butter",
-                "imageUrl": ""
-            },
-            {
-                "name": "water",
-                "imageUrl": ""
-            },
-            {
-                "name": "Lemon Juice",
-                "imageUrl": ""
-            },
-            {
-                "name": "Rose Water",
-                "imageUrl": ""
-            }
-        ],
-        "imageUrl": "",
-        "cookTime": "17min"
-    },
-    {
-        "foodId": 23,
-        "foodName": "Keftedes - Greek Meatballs",
-        "cuisine": "Middle-Eastern",
-        "ingredients": [{
-                "name": "Oil",
-                "imageUrl": ""
-            },
-            {
-                "name": "Lemon Juice",
-                "imageUrl": ""
-            },
-            {
-                "name": "Potato",
-                "imageUrl": ""
-            },
-            {
-                "name": "Ground Beef",
-                "imageUrl": ""
-            },
-            {
-                "name": "Onion",
-                "imageUrl": ""
-            },
-            {
-                "name": "bread crumbs",
-                "imageUrl": ""
-            },
-            {
-                "name": "Parsley",
-                "imageUrl": ""
-            },
-            {
-                "name": "Mint",
-                "imageUrl": ""
-            },
-            {
-                "name": "Ground Cinnamon",
-                "imageUrl": ""
-            },
-            {
-                "name": "lemon",
-                "imageUrl": ""
-            },
-            {
-                "name": "Ground Black Pepper",
-                "imageUrl": ""
-            },
-            {
-                "name": "salt",
-                "imageUrl": ""
-            },
-            {
-                "name": "Egg",
-                "imageUrl": ""
-            }
-
-        ],
-        "imageUrl": "",
-        "cookTime": "17min"
-    },
-    {
-        "foodId": 24,
-        "foodName": "Baklava",
-        "cuisine": "Middle-Eastern",
-        "ingredients": [{
-                "name": "chopped nuts",
-                "imageUrl": ""
-            },
-            {
-                "name": "Ground Cinnamon",
-                "imageUrl": ""
-            },
-            {
-                "name": "Phyllo Dough",
-                "imageUrl": ""
-            },
-            {
-                "name": "Butter",
-                "imageUrl": ""
-            },
-            {
-                "name": "White Sugar",
-                "imageUrl": ""
-            },
-            {
-                "name": "water",
-                "imageUrl": ""
-            },
-            {
-                "name": "Honey",
-                "imageUrl": ""
-            },
-            {
-                "name": "Vanilla Extract",
-                "imageUrl": ""
-            },
-            {
-                "name": "lemon",
-                "imageUrl": ""
-            }
-        ],
-        "imageUrl": "",
-        "cookTime": "17min"
-    },
-    {
-        "foodId": 25,
-        "foodName": "Baba Ghanoush",
-        "cuisine": "Middle-Eastern",
-        "ingredients": [{
-                "name": "Eggplant",
-                "imageUrl": ""
-            },
-            {
-                "name": "lemon",
-                "imageUrl": ""
-            },
-            {
-                "name": "tahini",
-                "imageUrl": ""
-            },
-            {
-                "name": "sesame seeds",
-                "imageUrl": ""
-            },
-            {
-                "name": "Garlic",
-                "imageUrl": ""
-            },
-            {
-                "name": "salt",
-                "imageUrl": ""
-            },
-            {
-                "name": "pepper",
-                "imageUrl": ""
-            },
-            {
-                "name": "Olive Oil",
-                "imageUrl": ""
-            }
-        ],
-        "imageUrl": "",
-        "cookTime": "17min"
+        ]
     }
 
 

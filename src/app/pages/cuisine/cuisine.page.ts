@@ -1,4 +1,5 @@
 import { Component, DoCheck, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { IFood } from 'src/app/interface/food';
 import { CartService } from 'src/app/services/cart.service';
 import { FoodsService } from 'src/app/services/foods.service';
@@ -12,17 +13,21 @@ export class CuisinePage implements OnInit,DoCheck {
 
   constructor(
     private foodService:FoodsService,
-    private cart:CartService
+    private cart:CartService,
+    private router:Router
   ) { }
 
+  receiver:any[];
   errorMessage='';
   foods:IFood[];
   cuisines:any;
   carts:number;
 
-  
-
   ngOnInit() {
+    this.receiver = JSON.parse(localStorage.getItem("login"));
+    if(!this.receiver){
+      this.router.navigate(['/login']);
+    }
     this.foodService.getFoods().subscribe({
       next: foods => {
         this.foods = foods;

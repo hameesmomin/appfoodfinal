@@ -1,6 +1,7 @@
 ion-content {
     --padding-start: 2rem;
-    --padding-end: 2rem;
+    --padding-end: 1rem;
+    --ion-background-color:#f5ddae;
     .food-list {
         display: grid;
         grid-template-columns: 1fr 1fr;
