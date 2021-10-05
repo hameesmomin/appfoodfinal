@@ -23,8 +23,6 @@ export class RecipeFindPage implements OnInit {
       next: foods => {
         this.foods = foods;  
         this.recipes = this.foods.filter(d => d.ingredients.some(c => this.ingredients.includes(c.name)));
-        console.log(this.recipes);
-
       },
       error: err => this.errorMessage = err
     });

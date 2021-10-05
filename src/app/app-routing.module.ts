@@ -8,7 +8,7 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'menu/home',
+    redirectTo: 'login',
     pathMatch: 'full',
   },
 
@@ -47,13 +47,13 @@ const routes: Routes = [
     loadChildren: () => import('./pages/cuisine/cuisine.module').then( m => m.CuisinePageModule)
   },
   {
-    path: 'favorites',
-    loadChildren: () => import('./pages/favorites/favorites.module').then( m => m.FavoritesPageModule)
+    path: 'cuisine-item/:id',
+    loadChildren: () => import('./pages/cuisine-item/cuisine-item.module').then( m => m.CuisineItemPageModule)
+  },
+  {
+    path: 'view',
+    loadChildren: () => import('./pages/view/view.module').then( m => m.ViewPageModule)
   }
-
-
-
-
 ];
 
 @NgModule({

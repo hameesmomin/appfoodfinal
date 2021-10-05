@@ -15,6 +15,25 @@ export class HomePage implements OnInit,DoCheck {
   
   }
 
+  pages:any[]=[
+    {
+       name:"Recipe",
+       url:"/recipe"
+    },
+    {
+      name:"Ingredient",
+      url:"/ingredient"
+    },
+    {
+      name:"cuisine",
+      url:"/cuisine"
+    },
+    {
+      name:"view",
+      url:"/view"
+    }
+]
+
   ngOnInit(){
 
   }

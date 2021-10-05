@@ -1,26 +1,32 @@
 <ion-header>
     <ion-toolbar color="secondary">
-        <ion-buttons slot="start">
-            <ion-back-button defaultHref="menu/home"></ion-back-button>
-        </ion-buttons>
-        <ion-title class="ion-text-center">Crummbz</ion-title>
-        <ion-buttons slot="end" style="position: relative;" [routerLink]="['/cart']">
-            <ion-icon name="cart" size="large" slot="icon-only"></ion-icon>
-            <ion-badge color="danger" *ngIf="carts">{{carts}}</ion-badge>
-        </ion-buttons>
+      <ion-buttons slot="start">
+        <ion-back-button defaultHref="menu/home"></ion-back-button>
+      </ion-buttons>
+      <ion-title class="ion-text-center">Crummbz</ion-title>
+      <ion-buttons slot="end" style="position: relative;" [routerLink]="['/cart']"  >
+        <ion-icon  name="cart" size="large"  slot="icon-only" ></ion-icon>
+        <ion-badge color="danger" *ngIf="carts">{{carts}}</ion-badge>
+      </ion-buttons>
     </ion-toolbar>
-</ion-header>
-
-<ion-content>
-
+  </ion-header>
+  
+  
+  <ion-content>
+  
     <br>
+    <!-- <h1>Cuisines</h1> -->
+  
     <br>
-    <br>
-
-
-    <div class="ion-text-center">
-        <ion-button color="secondary" expand="block" [routerLink]="['/recipe']">
-            <ion-icon name="search-outline"></ion-icon> American</ion-button><br>
-
-    </div>
-</ion-content>
+    <ion-list *ngFor="let cuisine of cuisines">
+      <ion-item class="ion-text-center" [routerLink]="['/cuisine-item',cuisine]">
+        <ion-label color="primary">
+          <b>{{cuisine}}</b>
+        </ion-label>
+      </ion-item>
+    </ion-list>
+  
+  
+  
+  </ion-content>
+  

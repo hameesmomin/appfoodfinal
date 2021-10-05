@@ -49,5 +49,11 @@ export class FoodsService{
         map((foods: IFood[]) => foods.find(p => p.foodId === id))
       );
   }
+  getCuisine(name:string):Observable<IFood[] | undefined>{
+    return this.getFoods()
+    .pipe(
+      map((foods: IFood[]) => foods.filter(p => p.cuisine.toLocaleLowerCase().indexOf(name)!==-1))
+    );
+  }
 
 }

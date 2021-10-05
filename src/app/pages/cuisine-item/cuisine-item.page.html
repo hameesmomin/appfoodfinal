@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="cuisine"></ion-back-button>
+    </ion-buttons>
+    <ion-title class="ion-text-center">Crummbz</ion-title>
+    <ion-buttons slot="end" style="position: relative;" [routerLink]="['/cart']"  >
+      <ion-icon  name="cart" size="large"  slot="icon-only" ></ion-icon>
+      <ion-badge color="danger" *ngIf="carts">{{carts}}</ion-badge>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <br>
+   <ion-searchbar placeholder="Search by recipe" [(ngModel)]="listFilter" animated></ion-searchbar>
+
+  <br>
+
+  <ion-list *ngFor="let food of filteredFoods">
+    <app-recipe-item [food]="food"></app-recipe-item>
+  </ion-list>
+  
+  <h3 *ngIf="this.counter===0" class="ion-text-center">{{"Not Found '"+listFilter+"'"}}</h3>
+
+</ion-content>

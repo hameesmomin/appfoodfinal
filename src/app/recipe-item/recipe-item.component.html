@@ -1,4 +1,4 @@
-  <ion-item [routerLink]="['/recipe-detail',food.foodId]">
+  <ion-item [routerLink]="['/recipe-detail',food.foodId]" (click)="addName(food.foodName)">
     
     <ion-thumbnail slot="end">
       <img

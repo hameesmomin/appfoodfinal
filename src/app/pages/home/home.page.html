@@ -15,18 +15,11 @@
 
     <br>
     <br>
-    <br>
 
 
-    <div class="ion-text-center">
-        <ion-button color="secondary" expand="block" [routerLink]="['/recipe']">
-            <ion-icon name="search-outline"></ion-icon> Recipe</ion-button><br>
-        <ion-button color="secondary" expand="block" [routerLink]="['/ingredient']">
-            <ion-icon name="search-outline"></ion-icon> Ingredient</ion-button><br>
-        <ion-button color="secondary" expand="block" [routerLink]="['/cuisine']">
-            <ion-icon name="search-outline"></ion-icon> Cusine</ion-button><br>
-        <ion-button color="secondary" expand="block" [routerLink]="['/favorites']">
-            <ion-icon name="search-outline"></ion-icon> Favorites</ion-button><br>
+    <div class="ion-text-center" *ngFor="let page of pages">
+        <ion-button color="secondary" expand="block" [routerLink]="page.url">
+            <ion-icon name="search-outline"></ion-icon>{{page.name}}</ion-button><br>
 
     </div>
 </ion-content>

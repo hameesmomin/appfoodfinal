@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { AlertController, NavController } from '@ionic/angular';
+import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 
 @Component({
   selector: 'app-login',
@@ -7,9 +9,53 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginPage implements OnInit {
 
-  constructor() { }
+  email:string;
+  password:string;
+
+  constructor(
+    private alertCtrl: AlertController,
+    private navCtrl:NavController
+  ) { }
+
 
   ngOnInit() {
+  }
+
+  login(){
+    if(!this.email || !this.password){
+      this.msgAlert("Fields are required","Error");  
+    }
+    
+    if(this.email && this.password){
+    const auth = getAuth();
+    signInWithEmailAndPassword(auth, this.email, this.password)
+    .then((userCredential) => {
+     // Signed in 
+     const user = userCredential.user;
+     this.navCtrl.navigateRoot("/menu/home");
+     // ...
+    })
+    .catch((error) => {
+      const errorCode = error.code;
+      const errorMessage = error.message;
+      this.msgAlert(errorMessage,"Error");
+    });
+   }
+  
+}
+  
+  async msgAlert(msg:string,header:string) {
+    const alert = await this.alertCtrl.create({
+      header: header,
+      message: msg,
+      buttons: [
+        {
+          text: 'OK',
+        },
+      ],
+    });
+  
+    alert.present();
   }
 
 }
