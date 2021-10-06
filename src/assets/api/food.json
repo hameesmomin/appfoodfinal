@@ -9,56 +9,191 @@
             },
             {
                 "name": "Garlic",
-                "quantity": "4 Cloves",
+                "quantity": "4 cloves minced",
                 "imageUrl": "assets/images/ingredients/Garlic.png"
             },
             {
                 "name": "Onion",
-                "quantity": "1/2 Cup",
+                "quantity": "½ cup, Chopped",
                 "imageUrl": "assets/images/ingredients/Onion.png"
             },
             {
                 "name": "Ginger",
-                "quantity": "1 Tablespoon",
+                "quantity": "1 tablespoon minced roots",
                 "imageUrl": "assets/images/ingredients/ginger.png"
             },
             {
                 "name": "Garam Masala",
-                "quantity": "1/2 Teaspoon",
+                "quantity": "⅛ teaspoon",
                 "imageUrl": "assets/images/ingredients/Garam Masala.png"
             },
             {
                 "name": "Channa Masala",
-                "quantity": "2 Teaspoons",
+                "quantity": "2 teaspoons",
                 "imageUrl": "assets/images/ingredients/Ground Cardamom.png"
             },
             {
                 "name": "Tomato",
-                "quantity": "1 Large",
+                "quantity": "1 large chopped",
                 "imageUrl": "assets/images/ingredients/Tomato.png"
             },
             {
                 "name": "Water",
-                "quantity": "1 & 1/2 Cups",
+                "quantity": "1 ½ cups",
                 "imageUrl": "assets/images/ingredients/water.png"
             },
             {
                 "name": "Garbanzo Beans",
-                "quantity": "2 Cans",
+                "quantity": "15.5 ounce",
                 "imageUrl": "assets/images/ingredients/Garbanzo Beans.png"
             },
             {
                 "name": "Salt",
-                "quantity": "As Per Taste",
+                "quantity": "To taste",
                 "imageUrl": "assets/images/ingredients/salt.png"
             }
         ],
         "imageUrl": "assets/images/foods/Indian Chickpeas.png",
-        "cookTime": "17min",
+        "cookTime": "45 mins",
         "directions": [{
-            "id": 1,
-            "step": "Heat oil in a saucepan over medium-high heat. Stir in the garlic, onion, and ginger, and cook until browned. Stir in the garam masala, channa masala spice, tomato, water, and garbanzos; season to taste with salt. Bring to a simmer, the reduce heat to low, cover and simmer until garbanzos are very soft, about 20 minutes."
-        }]
+                "id": 1,
+                "step": "Heat oil in a saucepan over medium-high heat."
+            },
+            {
+                "id": 2,
+                "step": "Stir in the garlic, onion, and ginger, and cook until browned."
+            },
+            {
+                "id": 3,
+                "step": "Stir in the garam masala, channa masala spice, tomato, water, and garbanzos; season to taste with salt."
+            },
+            {
+                "id": 4,
+                "step": "Bring to a simmer, the reduce heat to low, cover and simmer until garbanzos are very soft, about 20 minutes."
+            }
+        ]
+    },
+    {
+        "foodId": 7,
+        "foodName": "Indian Curry With Paneer",
+        "cuisine": "Indian",
+        "ingredients": [{
+                "name": "Olive Oil",
+                "quantity": "¼ cup",
+                "imageUrl": "assets/images/ingredients/Olive Oil.png"
+            },
+            {
+                "name": "Onion",
+                "quantity": "1 large chopped",
+                "imageUrl": "assets/images/ingredients/Onion.png"
+            },
+            {
+                "name": "Garlic",
+                "quantity": "1 teaspoon minced",
+                "imageUrl": "assets/images/ingredients/Garlic.png"
+            },
+            {
+                "name": "Ginger",
+                "quantity": "1 teaspoon minced root",
+                "imageUrl": "assets/images/ingredients/ginger.png"
+            },
+            {
+                "name": "Serrano Peppers",
+                "quantity": "2 minced",
+                "imageUrl": "assets/images/ingredients/Serrano Peppers.png"
+            },
+            {
+                "name": "Chili Powder",
+                "quantity": "¾ teaspoon",
+                "imageUrl": "assets/images/ingredients/Chili Powder.png"
+            },
+            {
+                "name": "Ground Cumin",
+                "quantity": "¾ teaspoon",
+                "imageUrl": "assets/images/ingredients/Ground Cumin.png"
+            },
+            {
+                "name": "Ground Coriander",
+                "quantity": "¾ teaspoon",
+                "imageUrl": "assets/images/ingredients/Ground Coriander.png"
+            },
+            {
+                "name": "Garam Masala",
+                "quantity": "¾ teaspoon",
+                "imageUrl": "assets/images/ingredients/Garam Masala.png"
+            },
+            {
+                "name": "Ground Tumeric",
+                "quantity": "¾ teaspoon",
+                "imageUrl": "assets/images/ingredients/Ground Turmeric.png"
+            },
+            {
+                "name": "Tomato Puree",
+                "quantity": "14.25 ounce",
+                "imageUrl": "assets/images/ingredients/tomatopuree.png"
+            },
+            {
+                "name": "Ketchup",
+                "quantity": "1 tablespoon",
+                "imageUrl": "assets/images/ingredients/ketchup.png"
+            },
+            {
+                "name": "Paneer",
+                "quantity": "8 ounces cubed",
+                "imageUrl": "assets/images/ingredients/paneer.png"
+            },
+            {
+                "name": "Green Peas",
+                "quantity": "16 ounce",
+                "imageUrl": "assets/images/ingredients/Green Peas.png"
+            },
+            {
+                "name": "Whipping Cream",
+                "quantity": "To taste",
+                "imageUrl": "assets/images/ingredients/Whipping Cream.png"
+            },
+            {
+                "name": "Cilantro Leaves",
+                "quantity": "chopped for garnish",
+                "imageUrl": "assets/images/ingredients/Cilantro Leaves.png"
+            }
+
+        ],
+        "imageUrl": "assets/images/foods/Indian Curry With Paneer.png",
+        "cookTime": "65 mins",
+        "directions": [{
+                "id": 1,
+                "step": "Heat oil in a large pan over medium heat. Cook and stir until onion has softened and turned translucent, about 5 minutes."
+            },
+            {
+                "id": 2,
+                "step": "Reduce heat to low and continue cooking and stirring until onion is very tender and dark brown, about 20 minutes more. Stir in garlic and ginger, and continue cooking for 1 minute."
+            },
+            {
+                "id": 3,
+                "step": "Reduce heat to low, stir in chopped serrano chiles, and cook for an additional minute. Sprinkle in the red chile powder, cumin, coriander, garam masala, and turmeric; cook until fragrant, about 1 minute."
+            },
+            {
+                "id": 4,
+                "step": "Reduce heat to low, stir in chopped serrano chiles, and cook for an additional minute."
+            },
+            {
+                "id": 5,
+                "step": "Sprinkle in the red chile powder, cumin, coriander, garam masala, and turmeric; cook until fragrant, about 1 minute."
+            },
+            {
+                "id": 6,
+                "step": "Reduce heat to low, stir in chopped serrano chiles, and cook for an additional minute. Sprinkle in the red chile powder, cumin, coriander, garam masala, and turmeric; cook until fragrant, about 1 minute."
+            },
+            {
+                "id": 7,
+                "step": "Pour in tomato puree and ketchup; thin with water to desired consistency."
+            },
+            {
+                "id": 8,
+                "step": "Stir in the paneer and peas; cook to soften peas, 2 to 3 minutes. Stir in cream, and increase heat to medium-high. Allow the curry to come to a rolling boil, and cook for 3 to 4 minutes. Garnish with cilantro."
+            }
+        ]
     },
     {
         "foodId": 8,
@@ -66,43 +201,42 @@
         "cuisine": "Indian",
         "ingredients": [{
                 "name": "Dried Moong Dal",
-                "quantity": "1/2 Cup",
+                "quantity": "½ cup",
                 "imageUrl": "assets/images/ingredients/dried moong dal.png"
             },
             {
                 "name": "Olive Oil",
-                "quantity": "1 Tablespoon",
+                "quantity": "1 tablespoon",
                 "imageUrl": "assets/images/ingredients/Olive Oil.png"
-
             },
             {
                 "name": "Ground Tumeric",
-                "quantity": "1/2 Tablespoon",
+                "quantity": "½ tablespoon",
                 "imageUrl": "assets/images/ingredients/Ground Turmeric.png"
             },
             {
                 "name": "Cumin Seeds",
-                "quantity": "1/4 Tablespoons",
+                "quantity": "¼ tablespoon",
                 "imageUrl": "assets/images/ingredients/cuminseeds.png"
             },
             {
-                "name": "Chopped Kale",
-                "quantity": "3 Cups",
+                "name": "Kale",
+                "quantity": "3 cups chopped",
                 "imageUrl": "assets/images/ingredients/kale.png"
             },
             {
                 "name": "Chili Powder",
-                "quantity": "1 Pinch",
+                "quantity": "1 pinch - optional",
                 "imageUrl": "assets/images/ingredients/Chili Powder.png"
             },
             {
                 "name": "Salt",
-                "quantity": "As Per Taste",
+                "quantity": "To taste",
                 "imageUrl": "assets/images/ingredients/salt.png"
             },
             {
                 "name": "Water",
-                "quantity": "1/4 Cup",
+                "quantity": "¼ cup",
                 "imageUrl": "assets/images/ingredients/water.png"
             }
         ],
@@ -114,7 +248,1430 @@
             },
             {
                 "id": 2,
-                "step": "Heat oil in a large pan over medium-low heat. Add turmeric and cumin seeds; cook until seeds start crackling. Add kale and soaked dal, followed by chili powder and salt. Pour in 1/4 cup water; bring to a boil. Reduce heat back to medium-low and cover the pan. Cook, mixing every 5 minutes, until desired tenderness is reached, 10 to 20 minutes total."
+                "step": "Heat oil in a large pan over medium-low heat. Add turmeric and cumin seeds; cook until seeds start crackling."
+            },
+            {
+                "id": 3,
+                "step": "Add kale and soaked dal, followed by chili powder and salt. Pour in 1/4 cup water; bring to a boil."
+            },
+            {
+                "id": 4,
+                "step": "Reduce heat back to medium-low and cover the pan. Cook, mixing every 5 minutes, until desired tenderness is reached, 10 to 20 minutes total."
+            }
+        ]
+    },
+    {
+        "foodId": 9,
+        "foodName": "Indian Carrots, Peas And Potatoes",
+        "cuisine": "Indian",
+        "ingredients": [{
+                "name": "Vegetable Oil",
+                "quantity": "5 tablespoons",
+                "imageUrl": "assets/images/ingredients/Vegetable Oil.png"
+            },
+            {
+                "name": "Onion",
+                "quantity": "1 chopped",
+                "imageUrl": "assets/images/ingredients/Onion.png"
+            },
+            {
+                "name": "Ground Cumin",
+                "quantity": "1 tablespoon",
+                "imageUrl": "assets/images/ingredients/Ground Cumin.png"
+            },
+            {
+                "name": "Ground Tumeric",
+                "quantity": "1 tablespoon",
+                "imageUrl": "assets/images/ingredients/Ground Turmeric.png"
+            },
+            {
+                "name": "Ground Coriander",
+                "quantity": "1 teaspoon",
+                "imageUrl": "assets/images/ingredients/Ground Coriander.png"
+            },
+            {
+                "name": "Chili Powder",
+                "quantity": "1 teaspoon",
+                "imageUrl": "assets/images/ingredients/Chili Powder.png"
+            },
+            {
+                "name": "Salt",
+                "quantity": "½ teaspoon",
+                "imageUrl": "assets/images/ingredients/salt.png"
+            },
+            {
+                "name": "Potato",
+                "quantity": "6 diced",
+                "imageUrl": "assets/images/ingredients/Potato.png"
+            },
+            {
+                "name": "Green Peas",
+                "quantity": "5 ounce",
+                "imageUrl": "assets/images/ingredients/Green Peas.png"
+            },
+            {
+                "name": "Carrot",
+                "quantity": "5 ounce",
+                "imageUrl": "assets/images/ingredients/Carrot.png"
+            },
+            {
+                "name": "Water",
+                "quantity": "3 tablespoons",
+                "imageUrl": "assets/images/ingredients/water.png"
+            }
+        ],
+        "imageUrl": "assets/images/foods/Indian Carrots, Peas And Potatoes.jpg",
+        "cookTime": "60 mins",
+	"directions": [{
+                "id": 1,
+                "step": "Heat the oil in a large skillet over medium-high heat. Add the onion, and season with cumin, turmeric, coriander, chili powder and salt."
+            },
+            {
+                "id": 2,
+                "step": "Cook and stir until onion is browned."
+            },
+            {
+                "id": 3,
+                "step": "Reduce the heat to medium, and stir in the potatoes, carrots and peas."
+            },
+            {
+                "id": 4,
+                "step": "Stir to coat, then cover and cook until potatoes are tender, about 20 minutes."
+            },
+            {
+                "id": 5,
+                "step": "Stir occasionally, and add water if necessary to keep food from sticking to the pan."
+            }
+        ]
+    },
+    {
+        "foodId": 10,
+        "foodName": "Indian Crepes",
+        "cuisine": "Indian",
+        "ingredients": [{
+                "name": "All-Purpose Flour",
+                "quantity": "1 cup",
+                "imageUrl": "assets/images/ingredients/All-Purpose Flour.png"
+            },
+            {
+                "name": "Water",
+                "quantity": "1 cup",
+                "imageUrl": "assets/images/ingredients/water.png"
+            },
+            {
+                "name": "Egg",
+                "quantity": "1",
+                "imageUrl": "assets/images/ingredients/Egg.png"
+            },
+            {
+                "name": "Butter",
+                "quantity": "2 tablespoons melted",
+                "imageUrl": "assets/images/ingredients/Butter.png"
+            },
+            {
+                "name": "Salt",
+                "quantity": "1 pinch",
+                "imageUrl": "assets/images/ingredients/salt.png"
+            },
+            {
+                "name": "Caraway Seeds",
+                "quantity": "1 tablespoon",
+                "imageUrl": "assets/images/ingredients/Caraway Seeds.png"
+            }
+        ],
+        "imageUrl": "assets/images/foods/Indian Crepes.png",
+        "cookTime": "30 mins",
+	"directions": [{
+                "id": 1,
+                "step": "Heat a non-stick crepe pan over medium-high heat."
+            },
+            {
+                "id": 2,
+                "step": "Whisk flour and water together in a bowl. Add egg and mix well. Whisk butter, salt, and caraway seeds into flour mixture to form a smooth batter."
+            },
+            {
+                "id": 3,
+                "step": "Pour about 1/4 cup batter into heated pan. Tilt the pan around so the batter forms a nice round shape. "
+            },
+            {
+                "id": 4,
+                "step": "Cook until bubbles form throughout the batter, 2 to 4 minutes."
+            },
+            {
+                "id": 5,
+                "step": "Flip the crepe by using spatula to loosen it from the pan. Flick your wrist upwards to give the crepe a toss, flipping it, and landing it back in the pan."
+            },
+            {
+                "id": 6,
+                "step": "Cook the second side until lightly browned, about 30 seconds. Repeat with remaining batter."
+            }
+        ]
+    },
+    {
+        "foodId": 11,
+        "foodName": "Easy Chicken Flautas",
+        "cuisine": "Mexican",
+        "ingredients": [{
+                "name": "Butter",
+                "quantity": "¼ cup",
+                "imageUrl": "assets/images/ingredients/Butter.png"
+            },
+            {
+                "name": "All-Purpose Flour",
+                "quantity": "¼ cup",
+                "imageUrl": "assets/images/ingredients/All-Purpose Flour.png"
+            },
+            {
+                "name": "Onion",
+                "quantity": "¼ cup minced",
+                "imageUrl": "assets/images/ingredients/Onion.png"
+            },
+            {
+                "name": "Black Olives",
+                "quantity": "¼ cup chopped",
+                "imageUrl": "assets/images/ingredients/black olives.png"
+            },
+            {
+                "name": "Lemon Juice",
+                "quantity": "2 tablespoons",
+                "imageUrl": "assets/images/ingredients/Lemon Juice.png"
+            },
+            {
+                "name": "Oil",
+                "quantity": "1 tablespoon",
+                "imageUrl": "assets/images/ingredients/Oil.png"
+            },
+            {
+                "name": "Ground Paprika",
+                "quantity": "¼ teaspoon",
+                "imageUrl": "assets/images/ingredients/Paprika.png"
+            },
+            {
+                "name": "Ground Black Pepper",
+                "quantity": "⅛ teaspoon",
+                "imageUrl": "assets/images/ingredients/pepper.png"
+            },
+            {
+                "name": "Salt",
+                "quantity": "⅛ teaspoo",
+                "imageUrl": "assets/images/ingredients/salt.png"
+            },
+            {
+                "name": "Shredded Chicken",
+                "quantity": "1 ½ cups cooked shredded",
+                "imageUrl": "assets/images/ingredients/salt.png"
+            },
+            {
+                "name": "Tortillas",
+                "quantity": "8 flour",
+                "imageUrl": "assets/images/ingredients/Tortillas.png"
+            },
+            {
+                "name": "Toothpicks",
+                "quantity": "",
+                "imageUrl": "assets/images/ingredients/toothpicks.png"
+            }
+
+        ],
+        "imageUrl": "assets/images/foods/Easy Chicken Flautas.png",
+        "cookTime": "50 mins",
+	"directions": [{
+                "id": 1,
+                "step": "Melt butter in a skillet over medium heat; stir flour into butter until smooth."
+            },
+            {
+                "id": 2,
+                "step": "Add onion to flour-butter mixture; cook and stir until onion is softened, 5 to 10 minutes."
+            },
+            {
+                "id": 3,
+                "step": "Mix black olives, lemon juice, oil, paprika, black pepper, and salt into onion mixture; cook and stir until heated through, about 2 minutes."
+            },
+            {
+                "id": 4,
+                "step": "Stir chicken into mixture and remove skillet from heat and cover."
+            },
+            {
+                "id": 5,
+                "step": "Heat oil in a large, heavy saucepan or deep-fryer."
+            },
+            {
+                "id": 6,
+                "step": "Fill tortillas with chicken mixture. Roll tortilla around filling and secure with a toothpick."
+            },
+            {
+                "id": 7,
+                "step": "Fry the rolled tortillas, working in batches, in the hot oil until browned, about 2 minutes. Transfer fried tortillas to a paper towel-lined plate using a slotted spoon or tongs."
+            }
+        ]
+    },
+    {
+        "foodId": 12,
+        "foodName": "Drowned Beef Sandwich With Sauce",
+        "cuisine": "Mexican",
+        "ingredients": [{
+                "name": "Chipotle Cooking Sauce",
+                "quantity": "12 ounces",
+                "imageUrl": "assets/images/ingredients/Chipotle Cooking Sauce.png"
+            },
+            {
+                "name": "Reduced Sodium Beef Broth",
+                "quantity": "14 ounce",
+                "imageUrl": "assets/images/ingredients/beef broth.png"
+            },
+            {
+                "name": "Cilantro Leaves",
+                "quantity": "¼ cup chopped - optional",
+                "imageUrl": "assets/images/ingredients/Cilantro Leaves.png"
+            },
+            {
+                "name": "Vegetable Oil",
+                "quantity": "2 tablespoons",
+                "imageUrl": "assets/images/ingredients/Vegetable Oil.png"
+            },
+            {
+                "name": "Onion",
+                "quantity": "1 thinly sliced",
+                "imageUrl": "assets/images/ingredients/Onion.png"
+            },
+            {
+                "name": "Garlic",
+                "quantity": "3 cloves minced",
+                "imageUrl": "assets/images/ingredients/Garlic.png"
+            },
+            {
+                "name": "Deli Roast Beef",
+                "quantity": "1 pound thinly sliced",
+                "imageUrl": "assets/images/ingredients/Deli Roast Beef.png"
+            },
+            {
+                "name": "bolilo rolls",
+                "quantity": "4 halved and lightly toasted",
+                "imageUrl": "assets/images/ingredients/Chili Powder.png"
+            },
+            {
+                "name": "Cilantro",
+                "quantity": "4 sprigs - optional",
+                "imageUrl": "assets/images/ingredients/bolilo roll.png"
+            }
+        ],
+        "imageUrl": "assets/images/foods/Drowned Beef Sandwich With Sauce.png",
+        "cookTime": "35 mins",
+	"directions": [{
+                "id": 1,
+                "step": "Combine chipotle cooking sauce, beef broth, and 1/4 cup chopped cilantro in a saucepan; bring to a boil."
+            },
+            {
+                "id": 2,
+                "step": "Reduce heat to medium-low and simmer, stirring occasionally, for 10 minutes."
+            },
+            {
+                "id": 3,
+                "step": "Heat oil in a skillet over medium-high heat; saute onion until softened, about 5 minutes."
+            },
+            {
+                "id": 4,
+                "step": "Stir garlic into onion and cook for 1 minute. Add roast beef and 1/4 cup chipotle sauce mixture and cook, stirring constantly, until heated through, about 2 minutes."
+            },
+            {
+                "id": 5,
+                "step": "Ladle remaining chipotle sauce mixture into 4 bowls for dipping. "
+            },
+            {
+                "id": 6,
+                "step": "Spoon roast beef mixture onto the bottom half of each bun, top with a cilantro sprig, and place the top on each bun."
+            },
+            {
+                "id": 7,
+                "step": "Dip sandwiches into sauce."
+            }
+        ]
+    },
+    {
+        "foodId": 13,
+        "foodName": "Secret Salsa",
+        "cuisine": "Mexican",
+        "ingredients": [{
+                "name": "Parsley",
+                "quantity": "¼ cup chopped",
+                "imageUrl": "assets/images/ingredients/Parsley.png"
+            },
+            {
+                "name": "Cilantro Leaves",
+                "quantity": "¼ cup chopped",
+                "imageUrl": "assets/images/ingredients/Cilantro Leaves.png"
+            },
+            {
+                "name": "Lime",
+                "quantity": "1 juiced",
+                "imageUrl": "assets/images/ingredients/lime.png"
+            },
+            {
+                "name": "Salt",
+                "quantity": "2 teaspoons",
+                "imageUrl": "assets/images/ingredients/salt.png"
+            },
+            {
+                "name": "Garlic powder",
+                "quantity": "½ teaspoon",
+                "imageUrl": "assets/images/ingredients/Garlic Powder.png"
+            },
+            {
+                "name": "Chili Powder",
+                "quantity": "½ teaspoon",
+                "imageUrl": "assets/images/ingredients/Chili Powder.png"
+            },
+            {
+                "name": "Ground Black Pepper",
+                "quantity": "½ teaspoon",
+                "imageUrl": "assets/images/ingredients/pepper.png"
+            },
+            {
+                "name": "Tomato",
+                "quantity": "6 large chopped",
+                "imageUrl": "assets/images/ingredients/Tomato.png"
+            },
+            {
+                "name": "Onion",
+                "quantity": "1 diced",
+                "imageUrl": "assets/images/ingredients/Onion.png"
+            },
+            {
+                "name": "Bell Pepper",
+                "quantity": "1 diced",
+                "imageUrl": "assets/images/ingredients/Bell Pepper.png"
+            }
+        ],
+        "imageUrl": "assets/images/foods/Secret Salsa.jpg",
+        "cookTime": "20 mins",
+	    "directions": [{
+                "id": 1,
+                "step": "Mix parsley, cilantro, lime juice, salt, garlic powder, chili powder, black pepper, and tequila together in a bowl."
+            },
+            {
+                "id": 2,
+                "step": "Add tomatoes, onion, and green bell peppers and toss to coat. Refrigerate."
+            }
+        ]
+    },
+    {
+        "foodId": 14,
+        "foodName": "Milk Cake",
+        "cuisine": "Mexican",
+        "ingredients": [{
+                "name": "All-Purpose Flour",
+                "quantity": "1 ½ cups",
+                "imageUrl": "assets/images/ingredients/All-Purpose Flour.png"
+            },
+            {
+                "name": "Baking Powder",
+                "quantity": "1 teaspoon",
+                "imageUrl": "assets/images/ingredients/Baking Powder.png"
+            },
+            {
+                "name": "Butter",
+                "quantity": "½ cup",
+                "imageUrl": "assets/images/ingredients/Butter.png"
+            },
+            {
+                "name": "White Sugar",
+                "quantity": "1 cup",
+                "imageUrl": "assets/images/ingredients/White Sugar.png"
+            },
+            {
+                "name": "Egg",
+                "quantity": "5",
+                "imageUrl": "assets/images/ingredients/Egg.png"
+            },
+            {
+                "name": "Vanilla Extract",
+                "quantity": "½ teaspoon",
+                "imageUrl": "assets/images/ingredients/Vanilla Extract.png"
+            },
+            {
+                "name": "Milk",
+                "quantity": "2 cups",
+                "imageUrl": "assets/images/ingredients/Milk.png"
+            },
+            {
+                "name": "Sweetened Condensed Milk",
+                "quantity": "14 ounce",
+                "imageUrl": "assets/images/ingredients/Sweetened Condensed Milk.png"
+            },
+            {
+                "name": "Evaporated Milk",
+                "quantity": "12 fluid ounce",
+                "imageUrl": "assets/images/ingredients/Evaporated Milk.png"
+            },
+            {
+                "name": "Whipping Cream",
+                "quantity": "1 ½ cups",
+                "imageUrl": "assets/images/ingredients/Whipping Cream.png"
+            }
+        ],
+        "imageUrl": "assets/images/foods/Milk Cake.png",
+        "cookTime": "25 mins",
+	    "directions": [{
+                "id": 1,
+                "step": "Preheat oven to 350 degrees F (175 degrees C). Grease and flour one 9x13 inch baking pan."
+            },
+            {
+                "id": 2,
+                "step": "Sift flour and baking powder together and set aside."
+            },
+            {
+                "id": 3,
+                "step": "Cream butter or margarine and the 1 cup sugar together until fluffy. Add eggs and the 1/2 teaspoon vanilla extract; beat well."
+            },
+            {
+                "id": 4,
+                "step": "Add the flour mixture to the butter mixture 2 tablespoons at a time; mix until well blended. Pour batter into prepared pan."
+            },
+            {
+                "id": 5,
+                "step": "Bake at 350 degrees F (175 degrees C) for 30 minutes. Pierce cake several times with a fork."
+            },
+            {
+                "id": 6,
+                "step": "Combine the whole milk, condensed milk, and evaporated milk together. Pour over the top of the cooled cake."
+            },
+            {
+                "id": 7,
+                "step": "Whip whipping cream, the remaining 1 cup of the sugar, and the remaining 1 teaspoon vanilla together until thick. Spread over the top of cake. Be sure and keep cake refrigerated, enjoy!"
+            }
+        ]
+    },
+    {
+        "foodId": 15,
+        "foodName": "Homemade Flour Tortillas",
+        "cuisine": "Mexican",
+        "ingredients": [{
+                "name": "All-Purpose Flour",
+                "quantity": "4 cups",
+                "imageUrl": "assets/images/ingredients/All-Purpose Flour.png"
+            },
+            {
+                "name": "salt",
+                "quantity": "1 teaspoon",
+                "imageUrl": "assets/images/ingredients/salt.png"
+            },
+            {
+                "name": "Baking Powder",
+                "quantity": "2 teaspoons",
+                "imageUrl": "assets/images/ingredients/Baking Powder.png"
+            },
+            {
+                "name": "Duck Fat",
+                "quantity": "2 tablespoons",
+                "imageUrl": "assets/images/ingredients/duck.PNG"
+            },
+            {
+                "name": "water",
+                "quantity": "1 ½ cups",
+                "imageUrl": "assets/images/ingredients/water.png"
+            }
+        ],
+        "imageUrl": "assets/images/foods/Homemade Flour Tortillas.png",
+        "cookTime": "60 mins",
+	    "directions": [{
+                "id": 1,
+                "step": "Whisk the flour, salt, and baking powder together in a mixing bowl. Mix in the lard with your fingers until the flour resembles cornmeal."
+            },
+            {
+                "id": 2,
+                "step": "Add the water and mix until the dough comes together; place on a lightly floured surface and knead a few minutes until smooth and elastic."
+            },
+            {
+                "id": 3,
+                "step": "Divide the dough into 24 equal pieces and roll each piece into a ball."
+            },
+            {
+                "id": 4,
+                "step": "Preheat a large skillet over medium-high heat."
+            },
+            {
+                "id": 5,
+                "step": "Use a well-floured rolling pin to roll a dough ball into a thin, round tortilla."
+            },
+            {
+                "id": 6,
+                "step": "Place into the hot skillet, and cook until bubbly and golden; flip and continue cooking until golden on the other side."
+            },
+            {
+                "id": 7,
+                "step": "Place the cooked tortilla in a tortilla warmer; continue rolling and cooking the remaining dough."
+            }
+        ]
+    },
+    {
+        "foodId": 16,
+        "foodName": "Chicken Biryani",
+        "cuisine": "Pakistani",
+        "ingredients": [{
+                "name": "Vegetable Oil",
+                "quantity": "4 tablespoons",
+                "imageUrl": "assets/images/ingredients/Vegetable Oil.png"
+            },
+            {
+                "name": "Potato",
+                "quantity": "4 small peeled and halved",
+                "imageUrl": "assets/images/ingredients/Potato.png"
+            },
+            {
+                "name": "Onion",
+                "quantity": "2 large finely chopped",
+                "imageUrl": "assets/images/ingredients/Onion.png"
+            },
+            {
+                "name": "Garlic",
+                "quantity": "2 cloves minced",
+                "imageUrl": "assets/images/ingredients/Garlic.png"
+            },
+            {
+                "name": "Chili Powder",
+                "quantity": "½ teaspoon",
+                "imageUrl": "assets/images/ingredients/Chili Powder.png"
+            },
+            {
+                "name": "Ground Black Pepper",
+                "quantity": "½ teaspoon",
+                "imageUrl": "assets/images/ingredients/pepper.png"
+            },
+            {
+                "name": "Ground Turmeric",
+                "quantity": "½ teaspoon",
+                "imageUrl": "assets/images/ingredients/Ground Turmeric.png"
+            },
+            {
+                "name": "cumin",
+                "quantity": "1 teaspoon",
+                "imageUrl": "assets/images/ingredients/cuminseeds.png"
+            },
+            {
+                "name": "Tomato",
+                "quantity": "2 medium peeled and chopped",
+                "imageUrl": "assets/images/ingredients/Tomato.png"
+            },
+            {
+                "name": "plain yogurt",
+                "quantity": "2 tablespoons",
+                "imageUrl": "assets/images/ingredients/yoghurt.png"
+            },
+            {
+                "name": "Mint",
+                "quantity": "2 tablespoons chopped",
+                "imageUrl": "assets/images/ingredients/Mint.png"
+            },
+            {
+                "name": "Ground Cardamom",
+                "quantity": "½ teaspoon",
+                "imageUrl": "assets/images/ingredients/Ground Cardamom.png"
+            },
+            {
+                "name": "piece cinnamon stick",
+                "quantity": "1 - 2 inch",
+                "imageUrl": "assets/images/ingredients/cinnamon.png"
+            },
+            {
+                "name": "Chicken Pieces",
+                "quantity": "3 pounds",
+                "imageUrl": "assets/images/ingredients/Chicken Pieces.png"
+            },
+            {
+                "name": "saffron",
+                "quantity": "1 pinch powdered",
+                "imageUrl": "assets/images/ingredients/saffron.png"
+            },
+            {
+                "name": "cloves",
+                "quantity": "3 whole",
+                "imageUrl": "assets/images/ingredients/cloves.png"
+            },
+            {
+                "name": "ground ginger",
+                "quantity": "½ teaspoon",
+                "imageUrl": "assets/images/ingredients/ground ginger.png"
+            },
+            {
+                "name": "Basmati Rice",
+                "quantity": "1 pound",
+                "imageUrl": "assets/images/ingredients/Basmati Rice.png"
+            },
+            {
+                "name": "chicken stock",
+                "quantity": "4 cups",
+                "imageUrl": "assets/images/ingredients/chicken stock.png"
+            },
+            {
+                "name": "salt",
+                "quantity": "2 ½ teaspoon",
+                "imageUrl": "assets/images/ingredients/salt.png"
+            }
+        ],
+        "imageUrl": "assets/images/foods/Chicken Biryani.png",
+        "cookTime": "45 mins",
+	    "directions": [{
+                "id": 1,
+                "step": "In a large skillet, in 2 tablespoons vegetable oil (or ghee) fry potatoes until brown, drain and reserve the potatoes."
+            },
+            {
+                "id": 2,
+                "step": " Add remaining 2 tablespoons oil to the skillet and fry onion, garlic and ginger until onion is soft and golden."
+            },
+            {
+                "id": 3,
+                "step": " Add chili, pepper, turmeric, cumin, salt and the tomatoes. Fry, stirring constantly for 5 minutes. "
+            },
+            {
+                "id": 4,
+                "step": "Add yogurt, mint, cardamom and cinnamon stick. Cover and cook over low heat, stirring occasionally until the tomatoes are cooked to a pulp. "
+            },
+            {
+                "id": 5,
+                "step": "It may be necessary to add a little hot water if the mixture becomes too dry and starts to stick to the pan."
+            },
+            {
+                "id": 6,
+                "step": "When the mixture is thick and smooth, add the chicken pieces and stir well to coat them with the spice mixture. Cover and cook over very low heat until the chicken is tender, approximately 35 to 45 minutes."
+            },
+            {
+                "id": 7,
+                "step": "There should only be a little very thick gravy left when chicken is finished cooking. If necessary cook uncovered for a few minutes to reduce the gravy."
+            },
+            {
+                "id": 8,
+                "step": "Wash rice well and drain in colander for at least 30 minutes."
+            },
+            {
+                "id": 8,
+                "step": "In a large skillet, heat vegetable oil (or ghee) and fry the onions until they are golden. Add saffron, cardamom, cloves, cinnamon stick, ginger and rice. Stir continuously until the rice is coated with the spices."
+            },
+            {
+                "id": 8,
+                "step": "In a medium-size pot, heat the chicken stock and salt. When the mixture is hot pour it over the rice and stir well. "
+            },
+            {
+                "id": 9,
+                "step": "Add the chicken mixture and the potatoes; gently mix them into the rice. Bring to boil. Cover the saucepan tightly, turn heat to very low and steam for 20 minutes. Do not lift lid or stir while cooking. Spoon biryani onto a warm serving dish."
+            }
+        ]
+    },
+    {
+        "foodId": 17,
+        "foodName": "Chicken Jalfrezi",
+        "cuisine": "Pakistani",
+        "ingredients": [{
+                "name": "Vegetable Oil",
+                "quantity": "2 tablespoons",
+                "imageUrl": "assets/images/ingredients/Vegetable Oil.png"
+            },
+            {
+                "name": "Onion",
+                "quantity": "1 grated",
+                "imageUrl": "assets/images/ingredients/Onion.png"
+            },
+            {
+                "name": "Garlic",
+                "quantity": "2 cloves chopped",
+                "imageUrl": "assets/images/ingredients/Garlic.png"
+            },
+            {
+                "name": "Chicken Pieces",
+                "quantity": "1 ½ pounds",
+                "imageUrl": "assets/images/ingredients/Chicken Pieces.png"
+            },
+            {
+                "name": "Ground Turmeric",
+                "quantity": "3 teaspoons",
+                "imageUrl": "assets/images/ingredients/Ground Turmeric.png"
+            },
+            {
+                "name": "Chili Powder",
+                "quantity": "1 teaspoon",
+                "imageUrl": "assets/images/ingredients/Chili Powder.png"
+            },
+            {
+                "name": "salt",
+                "quantity": "1 ½ teaspoons",
+                "imageUrl": "assets/images/ingredients/salt.png"
+            },
+            {
+                "name": "Tomato",
+                "quantity": "14.5 ounce peeled and diced",
+                "imageUrl": "assets/images/ingredients/Tomato.png"
+            },
+            {
+                "name": "Ghee",
+                "quantity": "2 tablespoons",
+                "imageUrl": "assets/images/ingredients/Ghee.png"
+            },
+            {
+                "name": "Ground Cumin",
+                "quantity": "3 teaspoons",
+                "imageUrl": "assets/images/ingredients/Ground Cumin.png"
+            },
+            {
+                "name": "Ground Coriander",
+                "quantity": "3 teaspoons",
+                "imageUrl": "assets/images/ingredients/Ground Coriander.png"
+            },
+            {
+                "name": "ginger root",
+                "quantity": "2 tablespoons grated",
+                "imageUrl": "assets/images/ingredients/salt.png"
+            },
+            {
+                "name": "Cilantro Leaves",
+                "quantity": "½ cup chopped",
+                "imageUrl": "assets/images/ingredients/Cilantro Leaves.png"
+            }
+        ],
+        "imageUrl": "assets/images/foods/Chicken Jalfrezi.png",
+        "cookTime": "75 mins",
+    	"directions": [{
+                "id": 1,
+                "step": "Heat the oil in a large deep skillet over medium-high heat. Add onions and garlic, and cook for about 2 minutes. "
+            },
+            {
+                "id": 2,
+                "step": "Add the chicken, and season with turmeric, chili powder and salt. Fry gently, scraping the bottom of the pan frequently and turning the chicken."
+            },
+            {
+                "id": 3,
+                "step": "Pour in the tomatoes with their juice, cover the pan, and simmer over medium heat for 20 minutes. Uncover, and simmer for another 10 minutes to let the excess liquid evaporate."
+            },
+            {
+                "id": 4,
+                "step": "Add the ghee, cumin, ground coriander, ginger and cilantro, and simmer for another 5 to 7 minutes. Serve the chicken pieces with sauce spooned over the top."
+            }
+        ]
+    },
+    {
+        "foodId": 18,
+        "foodName": "Chapli Kebab",
+        "cuisine": "Pakistani",
+        "ingredients": [{
+                "name": "Egg",
+                "quantity": "1 lightly beaten",
+                "imageUrl": "assets/images/ingredients/Egg.png"
+            },
+            {
+                "name": "Ground Beef",
+                "quantity": "1 pound",
+                "imageUrl": "assets/images/ingredients/Ground Beef.png"
+            },
+            {
+                "name": "Tomato",
+                "quantity": "1 finely chopped",
+                "imageUrl": "assets/images/ingredients/Tomato.png"
+            },
+            {
+                "name": "Red Onion",
+                "quantity": "1 finely chopped",
+                "imageUrl": "assets/images/ingredients/Onion.png"
+            },
+            {
+                "name": "Cilantro Leaves",
+                "quantity": "¼ cup finely chopped",
+                "imageUrl": "assets/images/ingredients/Cilantro Leaves.png"
+            },
+            {
+                "name": "Mint",
+                "quantity": "¼ cup finely chopped",
+                "imageUrl": "assets/images/ingredients/Mint.png"
+            },
+            {
+                "name": "ginger-garlic paste",
+                "quantity": "2 teaspoons",
+                "imageUrl": "assets/images/ingredients/ginger garlic paste.png"
+            },
+            {
+                "name": "coriander seeds",
+                "quantity": "2 teaspoons crushed",
+                "imageUrl": "assets/images/ingredients/coriander seeds.png"
+            },
+            {
+                "name": "salt",
+                "quantity": "1 teaspoon",
+                "imageUrl": "assets/images/ingredients/salt.png"
+            },
+            {
+                "name": "Ground Cumin",
+                "quantity": "¾ teaspoon",
+                "imageUrl": "assets/images/ingredients/Ground Cumin.png"
+            },
+            {
+                "name": "Cayenne Pepper",
+                "quantity": "¾ teaspoon",
+                "imageUrl": "assets/images/ingredients/Cayenne Pepper.png"
+            }
+
+        ],
+        "imageUrl": "assets/images/foods/Chapli Kebab.png",
+        "cookTime": "41 mins",
+	    "directions": [{
+                "id": 1,
+                "step": "Spray a small skillet with cooking spray; warm over medium-high heat. Pour egg into the skillet; cook and stir until scrambled and set, 3 to 5 minutes."
+            },
+            {
+                "id": 2,
+                "step": "Combine scrambled egg, beef, chopped tomato, onion, cilantro, mint, ginger-garlic paste, coriander seeds, salt, cumin, and cayenne pepper in a bowl."
+            },
+            {
+                "id": 3,
+                "step": "Mix by hand until well combined. Shape mixture into patties. Press a tomato slice into the center of each patty."
+            },
+            {
+                "id": 4,
+                "step": "Heat oil in a deep skillet to 375 degrees F (190 degrees C). Cook patties in the hot oil in batches until charred, 4 to 6 minutes per side."
+            }
+        ]
+    },
+    {
+        "foodId": 19,
+        "foodName": "Rice Pudding (Kheer)",
+        "cuisine": "Pakistani",
+        "ingredients": [{
+                "name": "White Rice",
+                "quantity": "½ cup uncooked",
+                "imageUrl": "assets/images/ingredients/White Rice.png"
+            },
+            {
+                "name": "Milk",
+                "quantity": "2 quarts",
+                "imageUrl": "assets/images/ingredients/Milk.png"
+            },
+            {
+                "name": "White Sugar",
+                "quantity": "1 ½ cups ",
+                "imageUrl": "assets/images/ingredients/White Sugar.png"
+            },
+            {
+                "name": "Cardamom",
+                "quantity": "4 pods",
+                "imageUrl": "assets/images/ingredients/Cardamom.png"
+            },
+            {
+                "name": "Rose Water",
+                "quantity": "2 teaspoons",
+                "imageUrl": "assets/images/ingredients/Rose Water.png"
+            },
+            {
+                "name": "Almonds",
+                "quantity": "¼ cup finely chopped",
+                "imageUrl": "assets/images/ingredients/Almonds.png"
+            }
+        ],
+        "imageUrl": "assets/images/foods/Rice Pudding (Kheer).png",
+        "cookTime": "2 hrs 10 mins",
+	    "directions": [{
+                "id": 1,
+                "step": "Place the rice in a small bowl and cover with water. Soak for one hour."
+            },
+            {
+                "id": 2,
+                "step": "Drain the rice and place it in a large, heavy saucepan with the milk over low heat. Cook, covered 50 minutes, stirring occasionally, until tender."
+            },
+            {
+                "id": 3,
+                "step": "Stir in sugar and cardamom and cook 20 minutes more."
+            },
+            {
+                "id": 4,
+                "step": "Remove from the heat and stir in the rose water. Serve topped with almonds."
+            }
+        ]
+    },
+    {
+        "foodId": 20,
+        "foodName": "Kulfi",
+        "cuisine": "Pakistani",
+        "ingredients": [{
+                "name": "Evaporated Milk",
+                "quantity": "2 cans ",
+                "imageUrl": "assets/images/ingredients/Evaporated Milk.png"
+            },
+            {
+                "name": "Table Cream",
+                "quantity": "2 cans",
+                "imageUrl": "assets/images/ingredients/Whipping Cream.png"
+            },
+            {
+                "name": "Sweetened Condensed Milk",
+                "quantity": "14 ounce",
+                "imageUrl": "assets/images/ingredients/Sweetened Condensed Milk.png"
+            },
+            {
+                "name": "white bread",
+                "quantity": "2 slices",
+                "imageUrl": "assets/images/ingredients/bread.png"
+            },
+            {
+                "name": "Ground Cardamom",
+                "quantity": "¼ teaspoon",
+                "imageUrl": "assets/images/ingredients/Ground Cardamom.png"
+            },
+            {
+                "name": "Almonds",
+                "quantity": "12 blanched",
+                "imageUrl": "assets/images/ingredients/Almonds.png"
+            }
+        ],
+        "imageUrl": "assets/images/foods/Kulfi.png",
+        "cookTime": "8 hrs 10 mins",
+	    "directions": [{
+                "id": 1,
+                "step": "Pour evaporated milk, canned cream, and sweetened condensed milk into a blender; tear bread into pieces and add to blender. "
+            },
+            {
+                "id": 2,
+                "step": "Add cardamom and almonds; blend until liquified, 3 to 4 minutes."
+            },
+            {
+                "id": 3,
+                "step": "Pour into a 9x13-inch glass dish and freeze 8 hours or overnight before cutting into squares and serving."
+            }
+        ]
+    },
+    {
+        "foodId": 21,
+        "foodName": "Chakchouka (Shakshouka)",
+        "cuisine": "Middle-Eastern",
+        "ingredients": [{
+                "name": "Olive Oil",
+                "quantity": "3 tablespoons",
+                "imageUrl": "assets/images/ingredients/Olive Oil.png"
+            },
+            {
+                "name": "Onion",
+                "quantity": "1 ⅓ cups",
+                "imageUrl": "assets/images/ingredients/Onion.png"
+            },
+            {
+                "name": "Bell Pepper",
+                "quantity": "1 cup thinly sliced",
+                "imageUrl": "assets/images/ingredients/Bell Pepper.png"
+            },
+            {
+                "name": "Garlic",
+                "quantity": "2 cloves minced",
+                "imageUrl": "assets/images/ingredients/Garlic.png"
+            },
+            {
+                "name": "Tomato",
+                "quantity": "2 ½ cups",
+                "imageUrl": "assets/images/ingredients/Tomato.png"
+            },
+            {
+                "name": "Ground Cumin",
+                "quantity": "1 teaspoon",
+                "imageUrl": "assets/images/ingredients/Ground Cumin.png"
+            },
+            {
+                "name": "Paprika",
+                "quantity": "1 teaspoon",
+                "imageUrl": "assets/images/ingredients/Paprika.png"
+            },
+            {
+                "name": "salt",
+                "quantity": "1 teaspoon",
+                "imageUrl": "assets/images/ingredients/salt.png"
+            },
+            {
+                "name": "chili pepper",
+                "quantity": "1 seeded and finely chopped",
+                "imageUrl": "assets/images/ingredients/Chili Powder.png"
+            },
+            {
+                "name": "Egg",
+                "quantity": "4",
+                "imageUrl": "assets/images/ingredients/Egg.png"
+            }
+        ],
+        "imageUrl": "assets/images/foods/Chakchouka (Shakshouka).png",
+        "cookTime": "40 mins",
+	    "directions": [{
+                "id": 1,
+                "step": "Heat the olive oil in a skillet over medium heat. Stir in the onion, bell peppers, and garlic; cook and stir until the vegetables have softened and the onion has turned translucent, about 5 minutes."
+            },
+            {
+                "id": 2,
+                "step": "Combine the tomatoes, cumin, paprika, salt, and chile pepper into a bowl and mix briefly. Pour the tomato mixture into the skillet, and stir to combine."
+            },
+            {
+                "id": 3,
+                "step": "Simmer, uncovered, until the tomato juices have cooked off, about 10 minutes. Make four indentations in the tomato mixture for the eggs."
+            },
+            {
+                "id": 4,
+                "step": "Crack the eggs into the indentations. Cover the skillet and let the eggs cook until they're firm but not dry, about 5 minutes."
+            }
+        ]
+    },
+    {
+        "foodId": 22,
+        "foodName": "Kanafa",
+        "cuisine": "Middle-Eastern",
+        "ingredients": [{
+                "name": "Phyllo Dough",
+                "quantity": "16 ounce shredded",
+                "imageUrl": "assets/images/ingredients/Phyllo Dough.png"
+            },
+            {
+                "name": "ricotta cheese",
+                "quantity": "15 ounce",
+                "imageUrl": "assets/images/ingredients/ricotta cheese.png"
+            },
+            {
+                "name": "mozzarella cheese",
+                "quantity": "1 cup",
+                "imageUrl": "assets/images/ingredients/mozarella cheese.png"
+            },
+            {
+                "name": "White Sugar",
+                "quantity": "⅓ cup",
+                "imageUrl": "assets/images/ingredients/White Sugar.png"
+            },
+            {
+                "name": "Butter",
+                "quantity": "12 ounces",
+                "imageUrl": "assets/images/ingredients/Butter.png"
+            },
+            {
+                "name": "water",
+                "quantity": "1 cup",
+                "imageUrl": "assets/images/ingredients/water.png"
+            },
+            {
+                "name": "Lemon Juice",
+                "quantity": "1 teaspoon",
+                "imageUrl": "assets/images/ingredients/Lemon Juice.png"
+            },
+            {
+                "name": "Rose Water",
+                "quantity": "⅛ teaspoon - optional",
+                "imageUrl": "assets/images/ingredients/Rose Water.png"
+            }
+        ],
+        "imageUrl": "assets/images/foods/Kanafa.jpg",
+        "cookTime": "60 mins",
+	    "directions": [{
+                "id": 1,
+                "step": "Preheat an oven to 400 degrees F (200 degrees C)."
+            },
+            {
+                "id": 2,
+                "step": "Use a food processor to finely chop the frozen, shredded phyllo dough. The strands should be about the size of a grain of rice. "
+            },
+            {
+                "id": 3,
+                "step": "Reduce heat to low, stir in chopped serrano chiles, and cook for an additional minute. Sprinkle in the red chile powder, cumin, coriander, garam masala, and turmeric; cook until fragrant, about 1 minute."
+            },
+            {
+                "id": 4,
+                "step": "Pour the dough into a large mixing bowl. In a separate bowl, mix together the ricotta, mozzarella, and 1/3 cup sugar."
+            },
+            {
+                "id": 5,
+                "step": "Place the butter in a large liquid measuring cup or bowl with a spout. Heat the butter in a microwave until completely melted, and let it sit for several minutes until a thick white foam has formed on top."
+            },
+            {
+                "id": 6,
+                "step": "Clarify the butter by using a spoon to skim off the foam."
+            },
+            {
+                "id": 7,
+                "step": "Carefully pour the butter into the bowl of phyllo dough. Avoid pouring in the white milk solids at the bottom of the clarified butter."
+            },
+            {
+                "id": 8,
+                "step": "Use your hands to mix the butter and dough together. Make sure that the butter is absorbed by taking handfuls of the dough and rubbing it between your palms."
+            },
+            {
+                "id": 9,
+                "step": "Evenly spread the buttered phyllo dough into a 9x13-inch pan and firmly press it into the bottom and edges. Spread the cheese mixture onto the dough, avoiding the edges of the pan."
+            },
+            {
+                "id": 10,
+                "step": "Bake in the preheated oven until the cheese is slightly golden and the edges of dough are brown and bubbly, 30 to 35 minutes."
+            },
+            {
+                "id": 11,
+                "step": "While the kanafa is baking, prepare the syrup. Combine the water and 1/2 cup sugar in a small saucepan. Bring the mixture to a boil over medium-high heat. Reduce the heat to medium and stir in the lemon juice."
+            },
+            {
+                "id": 12,
+                "step": "Simmer, stirring constantly, until the sugar is dissolved and the mixture is thickened, 5 to 7 minutes. (Do not let the mixture turn golden and caramelize.) Remove from heat and add the rose water; set aside."
+            },
+            {
+                "id": 13,
+                "step": "Remove the kanafa from the oven. Place a large platter or baking sheet over the baking dish. Using oven mitts, carefully invert the baking dish onto the platter so the phyllo is on top."
+            },
+            {
+                "id": 14,
+                "step": "Pour the syrup over the kanafa. Cut into pieces and serve while hot."
+            }
+        ]
+    },
+    {
+        "foodId": 23,
+        "foodName": "Keftedes - Greek Meatballs",
+        "cuisine": "Middle-Eastern",
+        "ingredients": [{
+                "name": "Oil",
+                "quantity": "For frying",
+                "imageUrl": "assets/images/ingredients/Oil.png"
+            },
+            {
+                "name": "Lemon Juice",
+                "quantity": "¼ cup",
+                "imageUrl": "assets/images/ingredients/Lemon Juice.png"
+            },
+            {
+                "name": "Potato",
+                "quantity": "5 white peeled",
+                "imageUrl": "assets/images/ingredients/Potato.png"
+            },
+            {
+                "name": "Ground Beef",
+                "quantity": "2 pounds",
+                "imageUrl": "assets/images/ingredients/Ground Beef.png"
+            },
+            {
+                "name": "Onion",
+                "quantity": "1 large grated",
+                "imageUrl": "assets/images/ingredients/Onion.png"
+            },
+            {
+                "name": "bread crumbs",
+                "quantity": "¾ cup dry",
+                "imageUrl": "assets/images/ingredients/bread crumbs.png"
+            },
+            {
+                "name": "Parsley",
+                "quantity": "1 cup chopped",
+                "imageUrl": "assets/images/ingredients/Parsley.png"
+            },
+            {
+                "name": "Mint",
+                "quantity": "⅓ cup dried crushed",
+                "imageUrl": "assets/images/ingredients/Mint.png"
+            },
+            {
+                "name": "Ground Cinnamon",
+                "quantity": "½ teaspoon",
+                "imageUrl": "assets/images/ingredients/salt.png"
+            },
+            {
+                "name": "lemon",
+                "quantity": "zest from 1",
+                "imageUrl": "assets/images/ingredients/lime.png"
+            },
+            {
+                "name": "Ground Black Pepper",
+                "quantity": "1 teaspoon",
+                "imageUrl": "assets/images/ingredients/pepper.png"
+            },
+            {
+                "name": "salt",
+                "quantity": "1 ½ tablespoons",
+                "imageUrl": "assets/images/ingredients/salt.png"
+            },
+            {
+                "name": "Egg",
+                "quantity": "2 beaten",
+                "imageUrl": "assets/images/ingredients/Egg.png"
+            }
+
+        ],
+        "imageUrl": "assets/images/foods/Keftedes - Greek Meatballs.png",
+        "cookTime": "50 mins",
+	    "directions": [{
+                "id": 1,
+                "step": "Heat oil in a deep-fryer or large saucepan to 325 degrees F (165 degrees C)."
+            },
+            {
+                "id": 2,
+                "step": "Place the lemon juice in a large bowl. Coarsely grate the potatoes into the lemon juice, stirring well to prevent browning."
+            },
+            {
+                "id": 3,
+                "step": "Stir in the ground beef, onion, bread crumbs, parsley, mint, cinnamon, lemon zest, eggs, and salt and pepper."
+            },
+            {
+                "id": 4,
+                "step": "Mix well, and shape into oblong balls about 1 inch thick and 2 inches wide."
+            },
+            {
+                "id": 5,
+                "step": "Place meatballs in hot oil in batches; do not crowd."
+            },
+            {
+                "id": 6,
+                "step": "Fry until golden brown, and cooked through, about 6 to 7 minutes per batch. Serve with lemon wedges."
+            }
+        ]
+    },
+    {
+        "foodId": 24,
+        "foodName": "Baklava",
+        "cuisine": "Middle-Eastern",
+        "ingredients": [{
+                "name": "chopped nuts",
+                "quantity": "1 pound",
+                "imageUrl": "assets/images/ingredients/chopped nuts.png"
+            },
+            {
+                "name": "Ground Cinnamon",
+                "quantity": "1 teaspoon",
+                "imageUrl": "assets/images/ingredients/Ground Cinnamon.png"
+            },
+            {
+                "name": "Phyllo Dough",
+                "quantity": "16 ounce",
+                "imageUrl": "assets/images/ingredients/Phyllo Dough.png"
+            },
+            {
+                "name": "Butter",
+                "quantity": "1 cup melted",
+                "imageUrl": "assets/images/ingredients/Butter.png"
+            },
+            {
+                "name": "White Sugar",
+                "quantity": "1 cup",
+                "imageUrl": "assets/images/ingredients/White Sugar.png"
+            },
+            {
+                "name": "water",
+                "quantity": "1 cup",
+                "imageUrl": "assets/images/ingredients/water.png"
+            },
+            {
+                "name": "Honey",
+                "quantity": "½ cup",
+                "imageUrl": "assets/images/ingredients/Honey.png"
+            },
+            {
+                "name": "Vanilla Extract",
+                "quantity": "1 teaspoon",
+                "imageUrl": "assets/images/ingredients/Vanilla Extract.png"
+            },
+            {
+                "name": "lemon",
+                "quantity": "1 teaspoon",
+                "imageUrl": "assets/images/ingredients/lime.png"
+            }
+        ],
+        "imageUrl": "assets/images/foods/Baklava.png",
+        "cookTime": "120 mins",
+	    "directions": [{
+                "id": 1,
+                "step": "Preheat oven to 350 degrees F (175 degrees C). Butter a 9x13 inch baking dish."
+            },
+            {
+                "id": 2,
+                "step": "Toss together cinnamon and nuts. Unroll phyllo and cut whole stack in half to fit the dish. "
+            },
+            {
+                "id": 3,
+                "step": "Cover phyllo with a damp cloth while assembling the baklava, to keep it from drying out."
+            },
+            {
+                "id": 4,
+                "step": "Place two sheets of phyllo in the bottom of the prepared dish. Brush generously with butter. Sprinkle 2 to 3 tablespoons of the nut mixture on top."
+            },
+            {
+                "id": 5,
+                "step": "Repeat layers until all ingredients are used, ending with about 6 sheets of phyllo."
+            },
+            {
+                "id": 6,
+                "step": "Using a sharp knife, cut baklava (all the way through to the bottom of the dish) into four long rows, then (nine times) diagonally to make 36 diamond shapes."
+            },
+            {
+                "id": 7,
+                "step": "Bake in preheated oven until golden brown and crisp, about 50 minutes."
+            },
+            {
+                "id": 8,
+                "step": "While baklava is baking, combine sugar and water in a small saucepan over medium heat and bring to a boil."
+            },
+            {
+                "id": 9,
+                "step": "Stir in honey, vanilla and lemon or orange zest; reduce heat and simmer 20 minutes."
+            },
+            {
+                "id": 3,
+                "step": "Remove the baklava from the oven and immediately spoon the syrup over it. Let cool completely before serving. Store uncovered."
+            }
+        ]
+    },
+    {
+        "foodId": 25,
+        "foodName": "Baba Ghanoush",
+        "cuisine": "Middle-Eastern",
+        "ingredients": [{
+                "name": "Eggplant",
+                "quantity": "1",
+                "imageUrl": "assets/images/ingredients/Eggplant.png"
+            },
+            {
+                "name": "lemon",
+                "quantity": "¼ cup",
+                "imageUrl": "assets/images/ingredients/lime.png"
+            },
+            {
+                "name": "tahini",
+                "quantity": "¼ cup",
+                "imageUrl": "assets/images/ingredients/tahini.png"
+            },
+            {
+                "name": "sesame seeds",
+                "quantity": "2 tablespoons",
+                "imageUrl": "assets/images/ingredients/sesame seeds.png"
+            },
+            {
+                "name": "Garlic",
+                "quantity": "2 cloves minced",
+                "imageUrl": "assets/images/ingredients/Garlic.png"
+            },
+            {
+                "name": "salt",
+                "quantity": "To taste",
+                "imageUrl": "assets/images/ingredients/salt.png"
+            },
+            {
+                "name": "pepper",
+                "quantity": "To taste",
+                "imageUrl": "assets/images/ingredients/pepper.png"
+            },
+            {
+                "name": "Olive Oil",
+                "quantity": "1 ½ tablespoons",
+                "imageUrl": "assets/images/ingredients/Olive Oil.png"
+            }
+        ],
+        "imageUrl": "assets/images/foods/Baba Ghanoush.png",
+        "cookTime": "3 hrs 45 mins",
+	    "directions": [{
+                "id": 1,
+                "step": "Preheat oven to 400 degrees F (200 degrees C). Lightly grease a baking sheet."
+            },
+            {
+                "id": 2,
+                "step": "Place eggplant on baking sheet, and make holes in the skin with a fork. Roast it for 30 to 40 minutes, turning occasionally, or until soft."
+            },
+            {
+                "id": 3,
+                "step": "Remove from oven, and place into a large bowl of cold water. Remove from water, and peel skin off."
+            },
+            {
+                "id": 4,
+                "step": "Place eggplant, lemon juice, tahini, sesame seeds, and garlic in an electric blender, and puree. Season with salt and pepper to taste. "
+            },
+            {
+                "id": 5,
+                "step": "Transfer eggplant mixture to a medium size mixing bowl, and slowly mix in olive oil. Refrigerate for 3 hours before serving."
             }
         ]
     }
