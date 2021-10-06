@@ -11,7 +11,7 @@
 
   <br>
   <ion-list *ngFor="let viewItem of viewItems">
-    <ion-item>
+    <ion-item [routerLink]="['/recipe-detail',viewItem.foodId]">
       <ion-label>
         <b>{{viewItem.foodName}}</b>
       </ion-label>

@@ -26,8 +26,10 @@ export class LoginPage implements OnInit {
     if(!this.email || !this.password){
       this.msgAlert("Fields are required","Error");  
     }
-    
-    if(this.email && this.password){
+    else if(this.password.length < 6){
+      this.msgAlert("Password must be 6 characters","Error");
+    }
+    else{
     const auth = getAuth();
     signInWithEmailAndPassword(auth, this.email, this.password)
     .then((userCredential) => {
@@ -44,7 +46,7 @@ export class LoginPage implements OnInit {
     .catch((error) => {
       const errorCode = error.code;
       const errorMessage = error.message;
-      this.msgAlert(errorMessage,"Error");
+      this.msgAlert("Invalid Credentials Entered","Error");
     });
    }
   

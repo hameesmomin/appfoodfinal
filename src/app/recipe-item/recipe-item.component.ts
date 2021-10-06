@@ -17,12 +17,13 @@ export class RecipeItemComponent implements OnInit {
 
   ngOnInit() {}
 
-  addName(name:string){
+  addName(name:string,id:number){
     this.check =this.viewService.checkView(name);
     
     if(!this.check){
       const viewItem:any = {
         id: this.viewService.newId,
+        foodId:id,
         foodName: name,
         view: 1,
       };

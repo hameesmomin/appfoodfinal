@@ -26,9 +26,11 @@ export class SignupPage implements OnInit {
 
     if(!this.name || !this.email || !this.password){
       this.msgAlert("Fields are required","Error");  
+    }    
+    else if(this.password.length < 6){
+      this.msgAlert("Password must be 6 characters","Error");
     }
-
-   if(this.email && this.name && this.password){  
+    else{  
  
     const auth = getAuth();
     createUserWithEmailAndPassword(auth, this.email, this.password)
@@ -41,7 +43,7 @@ export class SignupPage implements OnInit {
   .catch((error) => {
     const errorCode = error.code;
     const errorMessage = error.message;
-    this.msgAlert(errorMessage,"Error");
+    this.msgAlert("Invalid Credentials Entered","Error");
     // ..
   });
  
