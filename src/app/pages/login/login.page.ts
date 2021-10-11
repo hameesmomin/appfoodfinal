@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { AlertController, NavController } from '@ionic/angular';
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 
@@ -12,11 +13,18 @@ export class LoginPage implements OnInit {
   email:string;
   password:string;
   setItems:any[];
+  receiver:any[];
 
   constructor(
     private alertCtrl: AlertController,
-    private navCtrl:NavController
-  ) { }
+    private navCtrl:NavController,
+    private router:Router
+  ) { 
+    this.receiver = JSON.parse(localStorage.getItem("login"));
+    if(this.receiver){
+      this.router.navigate(['/menu/home']);
+    }
+  }
 
 
   ngOnInit() {

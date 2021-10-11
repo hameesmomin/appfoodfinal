@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 import { AlertController, NavController } from '@ionic/angular';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-signup',
@@ -8,18 +9,26 @@ import { AlertController, NavController } from '@ionic/angular';
   styleUrls: ['./signup.page.scss'],
 })
 export class SignupPage implements OnInit {
-
+  
+  receiver:any[];
   name:string;
   email:string;
   password:string;
 
   constructor(
     private alertCtrl: AlertController,
-    private navCtrl:NavController
-  ) { }
+    private navCtrl:NavController,
+    private router:Router
+  ) {
+    this.receiver = JSON.parse(localStorage.getItem("login"));
+    if(this.receiver){
+      this.router.navigate(['/menu/home']);
+    }
+   }
 
 
   ngOnInit() {
+ 
   }
 
   signUp(){

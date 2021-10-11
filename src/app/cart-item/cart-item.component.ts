@@ -8,6 +8,4 @@ import { ICart } from '../interface/cart';
 })
 export class CartItemComponent {
   @Input() item: ICart;
-  @Output() increase = new EventEmitter();
-  @Output() decrease = new EventEmitter();
 }

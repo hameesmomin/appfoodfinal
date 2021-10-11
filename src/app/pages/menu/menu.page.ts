@@ -11,7 +11,13 @@ export class MenuPage implements OnInit {
   pages = [
     {
       title: 'Home',
-      url: '/menu/home'
+      url: '/menu/home',
+      name:'home'
+    },
+    {
+       title:"Profile",
+       url:"/menu/profile",
+       name:'person-circle-outline'
     }
   ];
 
@@ -50,7 +56,6 @@ export class MenuPage implements OnInit {
   });
  
   }
-
   signOut(){
     localStorage.removeItem("carts");
     localStorage.removeItem("login");

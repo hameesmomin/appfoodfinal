@@ -302,7 +302,7 @@
             {
                 "name": "Potato",
                 "quantity": "6 diced",
-                "imageUrl": "assets/images/ingredients/Potato.png"
+                "imageUrl": "assets/images/ingredients/potato.png"
             },
             {
                 "name": "Green Peas",
@@ -815,7 +815,7 @@
             {
                 "name": "Potato",
                 "quantity": "4 small peeled and halved",
-                "imageUrl": "assets/images/ingredients/Potato.png"
+                "imageUrl": "assets/images/ingredients/potato.png"
             },
             {
                 "name": "Onion",
@@ -1430,7 +1430,7 @@
             {
                 "name": "Potato",
                 "quantity": "5 white peeled",
-                "imageUrl": "assets/images/ingredients/Potato.png"
+                "imageUrl": "assets/images/ingredients/potato.png"
             },
             {
                 "name": "Ground Beef",

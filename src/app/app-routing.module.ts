@@ -53,7 +53,9 @@ const routes: Routes = [
   {
     path: 'view',
     loadChildren: () => import('./pages/view/view.module').then( m => m.ViewPageModule)
-  }
+  },
+
+
 ];
 
 @NgModule({

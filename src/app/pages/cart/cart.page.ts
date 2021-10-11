@@ -28,19 +28,6 @@ export class CartPage implements OnInit {
   this.cartItems = this.cartService.receiver;
 }
 
-  onIncrease(item:ICart){
-    this.cartService.changeQuantity(1,item.id);
-  }
-
-  onDecrease(item:ICart){
-    if(item.quantity === 1) {
-      this.removeFromCart(item);
-    }
-    else {
-      this.cartService.changeQuantity(-1,item.id);
-    } 
-  }
-
   async removeFromCart(item: ICart) {
     const alert = await this.alertCtrl.create({
       header: 'Remove',

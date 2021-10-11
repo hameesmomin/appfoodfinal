@@ -14,8 +14,6 @@
       <ion-item>
         <app-cart-item
           [item]="item"
-          (increase)="onIncrease(item)"
-          (decrease)="onDecrease(item)"
         ></app-cart-item>
       </ion-item>
       <ion-item-options side="end">
@@ -31,20 +29,12 @@
     <ion-icon name="cart-outline"></ion-icon>
     <p>Your cart is empty</p>
   </div>
-
-
-
 <br>
 <br>
 <br>
 <br>
-
-
-
 
 <ion-footer *ngIf="cartItems.length" style="--background:#f5ddae">
-
- 
   <ion-toolbar style="--background:#f5ddae" >
 
     <ion-button
